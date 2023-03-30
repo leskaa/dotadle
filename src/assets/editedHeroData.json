@@ -1,0 +1,1971 @@
+[
+    {
+        "id": 0,
+        "heroId": 1,
+        "heroName": "Anti-Mage",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Escape",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 1,
+        "heroId": 2,
+        "heroName": "Axe",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Initiator",
+            "Durable",
+            "Disabler",
+            "Carry"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2005
+    },
+    {
+        "id": 2,
+        "heroId": 3,
+        "heroName": "Bane",
+        "attribute": "int",
+        "gender": "o",
+        "roles": [
+            "Support",
+            "Disabler",
+            "Nuker",
+            "Durable"
+        ],
+        "rangeType": "Ranged",
+        "legs": 4,
+        "releaseYear": 2004
+    },
+    {
+        "id": 3,
+        "heroId": 4,
+        "heroName": "Bloodseeker",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Nuker",
+            "Initiator"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2005
+    },
+    {
+        "id": 4,
+        "heroId": 5,
+        "heroName": "Crystal Maiden",
+        "attribute": "int",
+        "gender": "f",
+        "roles": [
+            "Support",
+            "Disabler",
+            "Nuker"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 5,
+        "heroId": 6,
+        "heroName": "Drow Ranger",
+        "attribute": "agi",
+        "gender": "f",
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Pusher"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 6,
+        "heroId": 7,
+        "heroName": "Earthshaker",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Initiator",
+            "Disabler",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2005
+    },
+    {
+        "id": 7,
+        "heroId": 8,
+        "heroName": "Juggernaut",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Pusher",
+            "Escape"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 8,
+        "heroId": 9,
+        "heroName": "Mirana",
+        "attribute": "agi",
+        "gender": "f",
+        "roles": [
+            "Carry",
+            "Support",
+            "Escape",
+            "Nuker",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2006
+    },
+    {
+        "id": 9,
+        "heroId": 10,
+        "heroName": "Morphling",
+        "attribute": "agi",
+        "gender": "o",
+        "roles": [
+            "Carry",
+            "Escape",
+            "Durable",
+            "Nuker",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 0,
+        "releaseYear": 2004
+    },
+    {
+        "id": 10,
+        "heroId": 11,
+        "heroName": "Shadow Fiend",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Nuker"
+        ],
+        "rangeType": "Ranged",
+        "legs": 0,
+        "releaseYear": 2005
+    },
+    {
+        "id": 11,
+        "heroId": 12,
+        "heroName": "Phantom Lancer",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Escape",
+            "Pusher",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2005
+    },
+    {
+        "id": 12,
+        "heroId": 13,
+        "heroName": "Puck",
+        "attribute": "int",
+        "gender": "o",
+        "roles": [
+            "Initiator",
+            "Disabler",
+            "Escape",
+            "Nuker"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2007
+    },
+    {
+        "id": 13,
+        "heroId": 14,
+        "heroName": "Pudge",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Disabler",
+            "Initiator",
+            "Durable",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 14,
+        "heroId": 15,
+        "heroName": "Razor",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Durable",
+            "Nuker",
+            "Pusher"
+        ],
+        "rangeType": "Ranged",
+        "legs": 0,
+        "releaseYear": 2004
+    },
+    {
+        "id": 15,
+        "heroId": 16,
+        "heroName": "Sand King",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Initiator",
+            "Disabler",
+            "Support",
+            "Nuker",
+            "Escape"
+        ],
+        "rangeType": "Melee",
+        "legs": 6,
+        "releaseYear": 2004
+    },
+    {
+        "id": 16,
+        "heroId": 17,
+        "heroName": "Storm Spirit",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Escape",
+            "Nuker",
+            "Initiator",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2007
+    },
+    {
+        "id": 17,
+        "heroId": 18,
+        "heroName": "Sven",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Initiator",
+            "Durable",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 18,
+        "heroId": 19,
+        "heroName": "Tiny",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Pusher",
+            "Initiator",
+            "Durable",
+            "Disabler"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2005
+    },
+    {
+        "id": 19,
+        "heroId": 20,
+        "heroName": "Vengeful Spirit",
+        "attribute": "agi",
+        "gender": "f",
+        "roles": [
+            "Support",
+            "Initiator",
+            "Disabler",
+            "Nuker",
+            "Escape"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 20,
+        "heroId": 21,
+        "heroName": "Windranger",
+        "attribute": "int",
+        "gender": "f",
+        "roles": [
+            "Carry",
+            "Support",
+            "Disabler",
+            "Escape",
+            "Nuker"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2008
+    },
+    {
+        "id": 21,
+        "heroId": 22,
+        "heroName": "Zeus",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Nuker",
+            "Carry"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 22,
+        "heroId": 23,
+        "heroName": "Kunkka",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Support",
+            "Disabler",
+            "Initiator",
+            "Durable",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2008
+    },
+    {
+        "id": 23,
+        "heroId": 25,
+        "heroName": "Lina",
+        "attribute": "int",
+        "gender": "f",
+        "roles": [
+            "Support",
+            "Carry",
+            "Nuker",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 24,
+        "heroId": 26,
+        "heroName": "Lion",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Disabler",
+            "Nuker",
+            "Initiator"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 25,
+        "heroId": 27,
+        "heroName": "Shadow Shaman",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Pusher",
+            "Disabler",
+            "Nuker",
+            "Initiator"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 26,
+        "heroId": 28,
+        "heroName": "Slardar",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Durable",
+            "Initiator",
+            "Disabler",
+            "Escape"
+        ],
+        "rangeType": "Melee",
+        "legs": 0,
+        "releaseYear": 2004
+    },
+    {
+        "id": 27,
+        "heroId": 29,
+        "heroName": "Tidehunter",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Initiator",
+            "Durable",
+            "Disabler",
+            "Nuker",
+            "Carry"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 28,
+        "heroId": 30,
+        "heroName": "Witch Doctor",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2006
+    },
+    {
+        "id": 29,
+        "heroId": 31,
+        "heroName": "Lich",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Nuker"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 30,
+        "heroId": 32,
+        "heroName": "Riki",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Escape",
+            "Disabler"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 31,
+        "heroId": 33,
+        "heroName": "Enigma",
+        "attribute": "int",
+        "gender": "o",
+        "roles": [
+            "Disabler",
+            "Initiator",
+            "Pusher"
+        ],
+        "rangeType": "Ranged",
+        "legs": 0,
+        "releaseYear": 2005
+    },
+    {
+        "id": 32,
+        "heroId": 34,
+        "heroName": "Tinker",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Pusher"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 33,
+        "heroId": 35,
+        "heroName": "Sniper",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Nuker"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 34,
+        "heroId": 36,
+        "heroName": "Necrophos",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Durable",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 35,
+        "heroId": 37,
+        "heroName": "Warlock",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Initiator",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2006
+    },
+    {
+        "id": 36,
+        "heroId": 38,
+        "heroName": "Beastmaster",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Initiator",
+            "Disabler",
+            "Durable",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2006
+    },
+    {
+        "id": 37,
+        "heroId": 39,
+        "heroName": "Queen of Pain",
+        "attribute": "int",
+        "gender": "f",
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Escape"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 38,
+        "heroId": 40,
+        "heroName": "Venomancer",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Nuker",
+            "Initiator",
+            "Pusher",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 0,
+        "releaseYear": 2004
+    },
+    {
+        "id": 39,
+        "heroId": 41,
+        "heroName": "Faceless Void",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Initiator",
+            "Disabler",
+            "Escape",
+            "Durable"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 40,
+        "heroId": 42,
+        "heroName": "Wraith King",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Support",
+            "Durable",
+            "Disabler",
+            "Initiator"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 41,
+        "heroId": 43,
+        "heroName": "Death Prophet",
+        "attribute": "int",
+        "gender": "f",
+        "roles": [
+            "Carry",
+            "Pusher",
+            "Nuker",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 42,
+        "heroId": 44,
+        "heroName": "Phantom Assassin",
+        "attribute": "agi",
+        "gender": "f",
+        "roles": [
+            "Carry",
+            "Escape"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 43,
+        "heroId": 45,
+        "heroName": "Pugna",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Nuker",
+            "Pusher"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 44,
+        "heroId": 46,
+        "heroName": "Templar Assassin",
+        "attribute": "agi",
+        "gender": "f",
+        "roles": [
+            "Carry",
+            "Escape"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2007
+    },
+    {
+        "id": 45,
+        "heroId": 47,
+        "heroName": "Viper",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Durable",
+            "Initiator",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 0,
+        "releaseYear": 2004
+    },
+    {
+        "id": 46,
+        "heroId": 48,
+        "heroName": "Luna",
+        "attribute": "agi",
+        "gender": "f",
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Pusher"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 47,
+        "heroId": 49,
+        "heroName": "Dragon Knight",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Pusher",
+            "Durable",
+            "Disabler",
+            "Initiator",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 48,
+        "heroId": 50,
+        "heroName": "Dazzle",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2005
+    },
+    {
+        "id": 49,
+        "heroId": 51,
+        "heroName": "Clockwerk",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Initiator",
+            "Disabler",
+            "Durable",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2008
+    },
+    {
+        "id": 50,
+        "heroId": 52,
+        "heroName": "Leshrac",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Support",
+            "Nuker",
+            "Pusher",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 4,
+        "releaseYear": 2004
+    },
+    {
+        "id": 51,
+        "heroId": 53,
+        "heroName": "Nature's Prophet",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Pusher",
+            "Escape",
+            "Nuker"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 52,
+        "heroId": 54,
+        "heroName": "Lifestealer",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Durable",
+            "Escape",
+            "Disabler"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 53,
+        "heroId": 55,
+        "heroName": "Dark Seer",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Initiator",
+            "Escape",
+            "Disabler"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2007
+    },
+    {
+        "id": 54,
+        "heroId": 56,
+        "heroName": "Clinkz",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Escape",
+            "Pusher"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 55,
+        "heroId": 57,
+        "heroName": "Omniknight",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Durable",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 56,
+        "heroId": 58,
+        "heroName": "Enchantress",
+        "attribute": "int",
+        "gender": "f",
+        "roles": [
+            "Support",
+            "Pusher",
+            "Durable",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 4,
+        "releaseYear": 2005
+    },
+    {
+        "id": 57,
+        "heroId": 59,
+        "heroName": "Huskar",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Durable",
+            "Initiator"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2007
+    },
+    {
+        "id": 58,
+        "heroId": 60,
+        "heroName": "Night Stalker",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Initiator",
+            "Durable",
+            "Disabler",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 59,
+        "heroId": 61,
+        "heroName": "Broodmother",
+        "attribute": "agi",
+        "gender": "f",
+        "roles": [
+            "Carry",
+            "Pusher",
+            "Escape",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 8,
+        "releaseYear": 2004
+    },
+    {
+        "id": 60,
+        "heroId": 62,
+        "heroName": "Bounty Hunter",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Escape",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 61,
+        "heroId": 63,
+        "heroName": "Weaver",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Escape"
+        ],
+        "rangeType": "Ranged",
+        "legs": 4,
+        "releaseYear": 2005
+    },
+    {
+        "id": 62,
+        "heroId": 64,
+        "heroName": "Jakiro",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Nuker",
+            "Pusher",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2006
+    },
+    {
+        "id": 63,
+        "heroId": 65,
+        "heroName": "Batrider",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Initiator",
+            "Disabler",
+            "Escape"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2009
+    },
+    {
+        "id": 64,
+        "heroId": 66,
+        "heroName": "Chen",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Pusher"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 65,
+        "heroId": 67,
+        "heroName": "Spectre",
+        "attribute": "agi",
+        "gender": "f",
+        "roles": [
+            "Carry",
+            "Durable",
+            "Escape"
+        ],
+        "rangeType": "Melee",
+        "legs": 0,
+        "releaseYear": 2006
+    },
+    {
+        "id": 66,
+        "heroId": 68,
+        "heroName": "Ancient Apparition",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Disabler",
+            "Nuker"
+        ],
+        "rangeType": "Ranged",
+        "legs": 0,
+        "releaseYear": 2009
+    },
+    {
+        "id": 67,
+        "heroId": 69,
+        "heroName": "Doom",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Initiator",
+            "Durable",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 68,
+        "heroId": 70,
+        "heroName": "Ursa",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Durable",
+            "Disabler"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 69,
+        "heroId": 71,
+        "heroName": "Spirit Breaker",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Initiator",
+            "Disabler",
+            "Durable",
+            "Escape"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2005
+    },
+    {
+        "id": 70,
+        "heroId": 72,
+        "heroName": "Gyrocopter",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2010
+    },
+    {
+        "id": 71,
+        "heroId": 73,
+        "heroName": "Alchemist",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Support",
+            "Durable",
+            "Disabler",
+            "Initiator",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2006
+    },
+    {
+        "id": 72,
+        "heroId": 74,
+        "heroName": "Invoker",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Escape",
+            "Pusher"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2005
+    },
+    {
+        "id": 73,
+        "heroId": 75,
+        "heroName": "Silencer",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Support",
+            "Disabler",
+            "Initiator",
+            "Nuker"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 74,
+        "heroId": 76,
+        "heroName": "Outworld Destroyer",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 4,
+        "releaseYear": 2006
+    },
+    {
+        "id": 75,
+        "heroId": 77,
+        "heroName": "Lycan",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Pusher",
+            "Durable",
+            "Escape"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 76,
+        "heroId": 78,
+        "heroName": "Brewmaster",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Initiator",
+            "Durable",
+            "Disabler",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 77,
+        "heroId": 79,
+        "heroName": "Shadow Demon",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Disabler",
+            "Initiator",
+            "Nuker"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2010
+    },
+    {
+        "id": 78,
+        "heroId": 80,
+        "heroName": "Lone Druid",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Pusher",
+            "Durable"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 79,
+        "heroId": 81,
+        "heroName": "Chaos Knight",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Pusher",
+            "Initiator"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 80,
+        "heroId": 82,
+        "heroName": "Meepo",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Escape",
+            "Nuker",
+            "Disabler",
+            "Initiator",
+            "Pusher"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2007
+    },
+    {
+        "id": 81,
+        "heroId": 83,
+        "heroName": "Treant Protector",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Initiator",
+            "Durable",
+            "Disabler",
+            "Escape"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 82,
+        "heroId": 84,
+        "heroName": "Ogre Magi",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Durable",
+            "Initiator"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 83,
+        "heroId": 85,
+        "heroName": "Undying",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Durable",
+            "Disabler",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2007
+    },
+    {
+        "id": 84,
+        "heroId": 86,
+        "heroName": "Rubick",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Disabler",
+            "Nuker"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2011
+    },
+    {
+        "id": 85,
+        "heroId": 87,
+        "heroName": "Disruptor",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Disabler",
+            "Nuker",
+            "Initiator"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2007
+    },
+    {
+        "id": 86,
+        "heroId": 88,
+        "heroName": "Nyx Assassin",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Disabler",
+            "Nuker",
+            "Initiator",
+            "Escape"
+        ],
+        "rangeType": "Melee",
+        "legs": 6,
+        "releaseYear": 2004
+    },
+    {
+        "id": 87,
+        "heroId": 89,
+        "heroName": "Naga Siren",
+        "attribute": "agi",
+        "gender": "f",
+        "roles": [
+            "Carry",
+            "Support",
+            "Pusher",
+            "Disabler",
+            "Initiator",
+            "Escape"
+        ],
+        "rangeType": "Melee",
+        "legs": 0,
+        "releaseYear": 2004
+    },
+    {
+        "id": 88,
+        "heroId": 90,
+        "heroName": "Keeper of the Light",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 89,
+        "heroId": 91,
+        "heroName": "Io",
+        "attribute": "str",
+        "gender": "o",
+        "roles": [
+            "Support",
+            "Escape",
+            "Nuker"
+        ],
+        "rangeType": "Ranged",
+        "legs": 0,
+        "releaseYear": 2010
+    },
+    {
+        "id": 90,
+        "heroId": 92,
+        "heroName": "Visage",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Nuker",
+            "Durable",
+            "Disabler",
+            "Pusher"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 91,
+        "heroId": 93,
+        "heroName": "Slark",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Escape",
+            "Disabler",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2009
+    },
+    {
+        "id": 92,
+        "heroId": 94,
+        "heroName": "Medusa",
+        "attribute": "agi",
+        "gender": "f",
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Durable"
+        ],
+        "rangeType": "Ranged",
+        "legs": 0,
+        "releaseYear": 2004
+    },
+    {
+        "id": 93,
+        "heroId": 95,
+        "heroName": "Troll Warlord",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Pusher",
+            "Disabler",
+            "Durable"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2013
+    },
+    {
+        "id": 94,
+        "heroId": 96,
+        "heroName": "Centaur Warrunner",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Durable",
+            "Initiator",
+            "Disabler",
+            "Nuker",
+            "Escape"
+        ],
+        "rangeType": "Melee",
+        "legs": 4,
+        "releaseYear": 2004
+    },
+    {
+        "id": 95,
+        "heroId": 97,
+        "heroName": "Magnus",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Initiator",
+            "Disabler",
+            "Nuker",
+            "Escape"
+        ],
+        "rangeType": "Melee",
+        "legs": 4,
+        "releaseYear": 2004
+    },
+    {
+        "id": 96,
+        "heroId": 98,
+        "heroName": "Timbersaw",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Nuker",
+            "Durable",
+            "Escape"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2011
+    },
+    {
+        "id": 97,
+        "heroId": 99,
+        "heroName": "Bristleback",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Durable",
+            "Initiator",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2005
+    },
+    {
+        "id": 98,
+        "heroId": 100,
+        "heroName": "Tusk",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Initiator",
+            "Disabler",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2010
+    },
+    {
+        "id": 99,
+        "heroId": 101,
+        "heroName": "Skywrath Mage",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2011
+    },
+    {
+        "id": 100,
+        "heroId": 102,
+        "heroName": "Abaddon",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Carry",
+            "Durable"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2005
+    },
+    {
+        "id": 101,
+        "heroId": 103,
+        "heroName": "Elder Titan",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Initiator",
+            "Disabler",
+            "Nuker",
+            "Durable"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2009
+    },
+    {
+        "id": 102,
+        "heroId": 104,
+        "heroName": "Legion Commander",
+        "attribute": "str",
+        "gender": "f",
+        "roles": [
+            "Carry",
+            "Disabler",
+            "Initiator",
+            "Durable",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2011
+    },
+    {
+        "id": 103,
+        "heroId": 105,
+        "heroName": "Techies",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Nuker",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 6,
+        "releaseYear": 2004
+    },
+    {
+        "id": 104,
+        "heroId": 106,
+        "heroName": "Ember Spirit",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Escape",
+            "Nuker",
+            "Disabler",
+            "Initiator"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2011
+    },
+    {
+        "id": 105,
+        "heroId": 107,
+        "heroName": "Earth Spirit",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Nuker",
+            "Escape",
+            "Disabler",
+            "Initiator",
+            "Durable"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2013
+    },
+    {
+        "id": 106,
+        "heroId": 108,
+        "heroName": "Underlord",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Durable",
+            "Escape"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2007
+    },
+    {
+        "id": 107,
+        "heroId": 109,
+        "heroName": "Terrorblade",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Pusher",
+            "Nuker"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2004
+    },
+    {
+        "id": 108,
+        "heroId": 110,
+        "heroName": "Phoenix",
+        "attribute": "str",
+        "gender": "o",
+        "roles": [
+            "Support",
+            "Nuker",
+            "Initiator",
+            "Escape",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2010
+    },
+    {
+        "id": 109,
+        "heroId": 111,
+        "heroName": "Oracle",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Escape"
+        ],
+        "rangeType": "Ranged",
+        "legs": 0,
+        "releaseYear": 2012
+    },
+    {
+        "id": 110,
+        "heroId": 112,
+        "heroName": "Winter Wyvern",
+        "attribute": "int",
+        "gender": "f",
+        "roles": [
+            "Support",
+            "Disabler",
+            "Nuker"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2012
+    },
+    {
+        "id": 111,
+        "heroId": 113,
+        "heroName": "Arc Warden",
+        "attribute": "agi",
+        "gender": "o",
+        "roles": [
+            "Carry",
+            "Escape",
+            "Nuker"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2012
+    },
+    {
+        "id": 112,
+        "heroId": 114,
+        "heroName": "Monkey King",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Escape",
+            "Disabler",
+            "Initiator"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2016
+    },
+    {
+        "id": 113,
+        "heroId": 119,
+        "heroName": "Dark Willow",
+        "attribute": "int",
+        "gender": "f",
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Escape"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2017
+    },
+    {
+        "id": 114,
+        "heroId": 120,
+        "heroName": "Pangolier",
+        "attribute": "agi",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler",
+            "Durable",
+            "Escape",
+            "Initiator"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2017
+    },
+    {
+        "id": 115,
+        "heroId": 121,
+        "heroName": "Grimstroke",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Escape"
+        ],
+        "rangeType": "Ranged",
+        "legs": 0,
+        "releaseYear": 2018
+    },
+    {
+        "id": 116,
+        "heroId": 123,
+        "heroName": "Hoodwink",
+        "attribute": "agi",
+        "gender": "f",
+        "roles": [
+            "Support",
+            "Nuker",
+            "Escape",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 4,
+        "releaseYear": 2020
+    },
+    {
+        "id": 117,
+        "heroId": 126,
+        "heroName": "Void Spirit",
+        "attribute": "int",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Escape",
+            "Nuker",
+            "Disabler"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2019
+    },
+    {
+        "id": 118,
+        "heroId": 128,
+        "heroName": "Snapfire",
+        "attribute": "str",
+        "gender": "f",
+        "roles": [
+            "Support",
+            "Nuker",
+            "Disabler",
+            "Escape"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2019
+    },
+    {
+        "id": 119,
+        "heroId": 129,
+        "heroName": "Mars",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Carry",
+            "Initiator",
+            "Disabler",
+            "Durable"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2019
+    },
+    {
+        "id": 120,
+        "heroId": 135,
+        "heroName": "Dawnbreaker",
+        "attribute": "str",
+        "gender": "f",
+        "roles": [
+            "Carry",
+            "Durable"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2021
+    },
+    {
+        "id": 121,
+        "heroId": 136,
+        "heroName": "Marci",
+        "attribute": "str",
+        "gender": "f",
+        "roles": [
+            "Support",
+            "Carry",
+            "Initiator",
+            "Disabler",
+            "Escape"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2021
+    },
+    {
+        "id": 122,
+        "heroId": 137,
+        "heroName": "Primal Beast",
+        "attribute": "str",
+        "gender": "m",
+        "roles": [
+            "Initiator",
+            "Durable",
+            "Disabler"
+        ],
+        "rangeType": "Melee",
+        "legs": 2,
+        "releaseYear": 2022
+    },
+    {
+        "id": 123,
+        "heroId": 138,
+        "heroName": "Muerta",
+        "attribute": "int",
+        "gender": "f",
+        "roles": [
+            "Carry",
+            "Nuker",
+            "Disabler"
+        ],
+        "rangeType": "Ranged",
+        "legs": 2,
+        "releaseYear": 2023
+    }
+]
