@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import options from "./datasets/editedHeroData.json";
+import options from "./datasets/heroData.json";
 import Hero from "./types/hero";
 
 type HeroInputProps = {

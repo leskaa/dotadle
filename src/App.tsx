@@ -3,7 +3,7 @@ import GameBoard from "./GameBoard";
 import HeroInput from "./HeroInput";
 import DotadleLogo from "./assets/DotadleAlphaLogo.png";
 import Hero from "./types/hero";
-import options from "./datasets/editedHeroData.json";
+import options from "./datasets/heroData.json";
 import answers from "./datasets/answerIds.json";
 
 // TODO: Remove hardcoded values

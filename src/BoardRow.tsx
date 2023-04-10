@@ -2,7 +2,7 @@ import React from "react";
 import { Box } from "./Box";
 import Colors from "./types/colors";
 import Hero from "./types/hero";
-import options from "./datasets/editedHeroData.json";
+import options from "./datasets/heroData.json";
 import answers from "./datasets/answerIds.json";
 
 type BoardRowProps = {
@@ -10,7 +10,6 @@ type BoardRowProps = {
   imageName: string;
   attribute: string;
   gender: string;
-  roles: string[];
   rangeType: string;
   race: string[];
   legs: number;
@@ -60,7 +59,6 @@ const BoardRow = ({
   imageName,
   attribute,
   gender,
-  roles,
   rangeType,
   race,
   legs,
@@ -91,11 +89,6 @@ const BoardRow = ({
           }
           content={gender}
         />
-        {/* <Box
-          color={checkIfListsMatch(correctAnswer.roles, roles)}
-          content={convertListToString(roles)}
-          miniFont={true}
-        /> */}
         <Box
           color={
             correctAnswer.rangeType === rangeType

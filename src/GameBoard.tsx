@@ -20,9 +20,6 @@ const GameBoard = ({ guessedHeroes }: GameBoardProps) => {
         <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
           Gender
         </h2>
-        {/* <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
-          Roles
-        </h2> */}
         <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
           Range Type
         </h2>
@@ -47,7 +44,6 @@ const GameBoard = ({ guessedHeroes }: GameBoardProps) => {
             imageName={hero.heroImageName}
             attribute={hero.attribute}
             gender={hero.gender}
-            roles={hero.roles}
             rangeType={hero.rangeType}
             race={hero.race}
             legs={hero.legs}
