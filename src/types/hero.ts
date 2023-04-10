@@ -4,6 +4,7 @@ type Hero = {
   heroName: string;
   heroImageName: string;
   attribute: string;
+  lanes: string[];
   gender: string;
   roles: string[];
   rangeType: string;

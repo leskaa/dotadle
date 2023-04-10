@@ -9,6 +9,7 @@ type BoardRowProps = {
   heroName: string;
   imageName: string;
   attribute: string;
+  lanes: string[];
   gender: string;
   rangeType: string;
   race: string[];
@@ -59,6 +60,7 @@ const BoardRow = ({
   heroName,
   imageName,
   attribute,
+  lanes,
   gender,
   rangeType,
   race,
@@ -84,6 +86,11 @@ const BoardRow = ({
               : Colors.INCORRECT
           }
           content={attribute}
+        />
+        <Box
+          color={checkIfListsMatch(correctAnswer.lanes, lanes)}
+          content={convertListToString(lanes)}
+          isMultiline={true}
         />
         <Box
           color={

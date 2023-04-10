@@ -14,6 +14,7 @@ const EmptyBoardRow = () => {
         <Box color={Colors.EMPTY} content="" />
         <Box color={Colors.EMPTY} content="" />
         <Box color={Colors.EMPTY} content="" />
+        <Box color={Colors.EMPTY} content="" />
       </div>
     </div>
   );

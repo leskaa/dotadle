@@ -17,6 +17,15 @@ const GameBoard = ({ guessedHeroes }: GameBoardProps) => {
         <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
           Attribute
         </h2>
+        <div className="relative group">
+          <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
+            Lane<div className="ordinal text-slate-400">&nbsp;*</div>
+          </h2>
+          <div className="absolute hidden group-hover:block duration-200 -right-10 -top-2 z-10 text-white border bg-slate-800 text-xs p-1 w-48 rounded-md">
+            Lanes in which the hero appears in over <strong>20%</strong> of
+            matches (Patch 7.32)
+          </div>
+        </div>
         <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
           Gender
         </h2>
@@ -26,9 +35,14 @@ const GameBoard = ({ guessedHeroes }: GameBoardProps) => {
         <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
           Races
         </h2>
-        <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
-          Complexity
-        </h2>
+        <div className="relative group">
+          <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
+            Complexity<div className="ordinal text-slate-400">&nbsp;*</div>
+          </h2>
+          <div className="absolute hidden group-hover:block duration-200 -right-10 -top-2 z-10 text-white border bg-slate-800 text-xs p-1 w-48 rounded-md">
+            Valve determined complexity rating from 1-3 (Easy, Medium, Hard)
+          </div>
+        </div>
         <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
           Legs
         </h2>
@@ -46,6 +60,7 @@ const GameBoard = ({ guessedHeroes }: GameBoardProps) => {
             heroName={hero.heroName}
             imageName={hero.heroImageName}
             attribute={hero.attribute}
+            lanes={hero.lanes}
             gender={hero.gender}
             rangeType={hero.rangeType}
             race={hero.race}

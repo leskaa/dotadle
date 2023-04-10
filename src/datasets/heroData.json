@@ -5,6 +5,9 @@
         "heroName": "Anti-Mage",
         "heroImageName": "antimage",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -25,6 +28,9 @@
         "heroName": "Axe",
         "heroImageName": "axe",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -46,6 +52,10 @@
         "heroName": "Bane",
         "heroImageName": "bane",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Other",
         "roles": [
             "Support",
@@ -67,6 +77,11 @@
         "heroName": "Bloodseeker",
         "heroImageName": "bloodseeker",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane",
+            "Jungle",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -89,6 +104,9 @@
         "heroName": "Crystal Maiden",
         "heroImageName": "crystal_maiden",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Female",
         "roles": [
             "Support",
@@ -109,6 +127,9 @@
         "heroName": "Drow Ranger",
         "heroImageName": "drow_ranger",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Female",
         "roles": [
             "Carry",
@@ -129,6 +150,10 @@
         "heroName": "Earthshaker",
         "heroImageName": "earthshaker",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -150,6 +175,9 @@
         "heroName": "Juggernaut",
         "heroImageName": "juggernaut",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -170,6 +198,10 @@
         "heroName": "Mirana",
         "heroImageName": "mirana",
         "attribute": "Agility",
+        "lanes": [
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Female",
         "roles": [
             "Carry",
@@ -192,6 +224,10 @@
         "heroName": "Morphling",
         "heroImageName": "morphling",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane",
+            "Midlane"
+        ],
         "gender": "Other",
         "roles": [
             "Carry",
@@ -214,6 +250,9 @@
         "heroName": "Shadow Fiend",
         "heroImageName": "nevermore",
         "attribute": "Agility",
+        "lanes": [
+            "Midlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -233,6 +272,9 @@
         "heroName": "Phantom Lancer",
         "heroImageName": "phantom_lancer",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -255,6 +297,9 @@
         "heroName": "Puck",
         "heroImageName": "puck",
         "attribute": "Intelligence",
+        "lanes": [
+            "Midlane"
+        ],
         "gender": "Other",
         "roles": [
             "Initiator",
@@ -277,6 +322,10 @@
         "heroName": "Pudge",
         "heroImageName": "pudge",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Disabler",
@@ -299,6 +348,11 @@
         "heroName": "Razor",
         "heroImageName": "razor",
         "attribute": "Agility",
+        "lanes": [
+            "Offlane",
+            "Midlane",
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -321,6 +375,9 @@
         "heroName": "Sand King",
         "heroImageName": "sand_king",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -344,6 +401,9 @@
         "heroName": "Storm Spirit",
         "heroImageName": "storm_spirit",
         "attribute": "Intelligence",
+        "lanes": [
+            "Midlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -366,6 +426,9 @@
         "heroName": "Sven",
         "heroImageName": "sven",
         "attribute": "Strength",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -389,6 +452,11 @@
         "heroName": "Tiny",
         "heroImageName": "tiny",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane",
+            "Safelane",
+            "Midlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -413,6 +481,10 @@
         "heroName": "Vengeful Spirit",
         "heroImageName": "vengefulspirit",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Female",
         "roles": [
             "Support",
@@ -436,6 +508,10 @@
         "heroName": "Windranger",
         "heroImageName": "windrunner",
         "attribute": "Intelligence",
+        "lanes": [
+            "Offlane",
+            "Midlane"
+        ],
         "gender": "Female",
         "roles": [
             "Carry",
@@ -458,6 +534,10 @@
         "heroName": "Zeus",
         "heroImageName": "zuus",
         "attribute": "Intelligence",
+        "lanes": [
+            "Midlane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Nuker",
@@ -477,6 +557,10 @@
         "heroName": "Kunkka",
         "heroImageName": "kunkka",
         "attribute": "Strength",
+        "lanes": [
+            "Midlane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -500,6 +584,11 @@
         "heroName": "Lina",
         "heroImageName": "lina",
         "attribute": "Intelligence",
+        "lanes": [
+            "Midlane",
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Female",
         "roles": [
             "Support",
@@ -521,6 +610,10 @@
         "heroName": "Lion",
         "heroImageName": "lion",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -543,6 +636,10 @@
         "heroName": "Shadow Shaman",
         "heroImageName": "shadow_shaman",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -565,6 +662,9 @@
         "heroName": "Slardar",
         "heroImageName": "slardar",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -587,6 +687,9 @@
         "heroName": "Tidehunter",
         "heroImageName": "tidehunter",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -610,6 +713,10 @@
         "heroName": "Witch Doctor",
         "heroImageName": "witch_doctor",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -630,6 +737,10 @@
         "heroName": "Lich",
         "heroImageName": "lich",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -650,6 +761,10 @@
         "heroName": "Riki",
         "heroImageName": "riki",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -671,6 +786,10 @@
         "heroName": "Enigma",
         "heroImageName": "enigma",
         "attribute": "Intelligence",
+        "lanes": [
+            "Offlane",
+            "Jungle"
+        ],
         "gender": "Other",
         "roles": [
             "Disabler",
@@ -691,6 +810,9 @@
         "heroName": "Tinker",
         "heroImageName": "tinker",
         "attribute": "Intelligence",
+        "lanes": [
+            "Midlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -711,6 +833,10 @@
         "heroName": "Sniper",
         "heroImageName": "sniper",
         "attribute": "Agility",
+        "lanes": [
+            "Midlane",
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -730,6 +856,10 @@
         "heroName": "Necrophos",
         "heroImageName": "necrolyte",
         "attribute": "Intelligence",
+        "lanes": [
+            "Offlane",
+            "Midlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -751,6 +881,10 @@
         "heroName": "Warlock",
         "heroImageName": "warlock",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -771,6 +905,9 @@
         "heroName": "Beastmaster",
         "heroImageName": "beastmaster",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -792,6 +929,10 @@
         "heroName": "Queen of Pain",
         "heroImageName": "queenofpain",
         "attribute": "Intelligence",
+        "lanes": [
+            "Midlane",
+            "Offlane"
+        ],
         "gender": "Female",
         "roles": [
             "Carry",
@@ -812,6 +953,10 @@
         "heroName": "Venomancer",
         "heroImageName": "venomancer",
         "attribute": "Agility",
+        "lanes": [
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -835,6 +980,9 @@
         "heroName": "Faceless Void",
         "heroImageName": "faceless_void",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -857,6 +1005,10 @@
         "heroName": "Wraith King",
         "heroImageName": "skeleton_king",
         "attribute": "Strength",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -880,6 +1032,10 @@
         "heroName": "Death Prophet",
         "heroImageName": "death_prophet",
         "attribute": "Intelligence",
+        "lanes": [
+            "Midlane",
+            "Offlane"
+        ],
         "gender": "Female",
         "roles": [
             "Carry",
@@ -902,6 +1058,9 @@
         "heroName": "Phantom Assassin",
         "heroImageName": "phantom_assassin",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Female",
         "roles": [
             "Carry",
@@ -921,6 +1080,11 @@
         "heroName": "Pugna",
         "heroImageName": "pugna",
         "attribute": "Intelligence",
+        "lanes": [
+            "Offlane",
+            "Midlane",
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Nuker",
@@ -940,6 +1104,9 @@
         "heroName": "Templar Assassin",
         "heroImageName": "templar_assassin",
         "attribute": "Agility",
+        "lanes": [
+            "Midlane"
+        ],
         "gender": "Female",
         "roles": [
             "Carry",
@@ -959,6 +1126,10 @@
         "heroName": "Viper",
         "heroImageName": "viper",
         "attribute": "Agility",
+        "lanes": [
+            "Midlane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -981,6 +1152,9 @@
         "heroName": "Luna",
         "heroImageName": "luna",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Female",
         "roles": [
             "Carry",
@@ -1001,6 +1175,10 @@
         "heroName": "Dragon Knight",
         "heroImageName": "dragon_knight",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane",
+            "Midlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1025,6 +1203,10 @@
         "heroName": "Dazzle",
         "heroImageName": "dazzle",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -1045,6 +1227,9 @@
         "heroName": "Clockwerk",
         "heroImageName": "rattletrap",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -1066,6 +1251,10 @@
         "heroName": "Leshrac",
         "heroImageName": "leshrac",
         "attribute": "Intelligence",
+        "lanes": [
+            "Midlane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1088,6 +1277,10 @@
         "heroName": "Nature's Prophet",
         "heroImageName": "furion",
         "attribute": "Intelligence",
+        "lanes": [
+            "Offlane",
+            "Jungle"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1109,6 +1302,9 @@
         "heroName": "Lifestealer",
         "heroImageName": "life_stealer",
         "attribute": "Strength",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1130,6 +1326,9 @@
         "heroName": "Dark Seer",
         "heroImageName": "dark_seer",
         "attribute": "Intelligence",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -1150,6 +1349,10 @@
         "heroName": "Clinkz",
         "heroImageName": "clinkz",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane",
+            "Midlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1171,6 +1374,10 @@
         "heroName": "Omniknight",
         "heroImageName": "omniknight",
         "attribute": "Strength",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -1191,6 +1398,10 @@
         "heroName": "Enchantress",
         "heroImageName": "enchantress",
         "attribute": "Intelligence",
+        "lanes": [
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Female",
         "roles": [
             "Support",
@@ -1212,6 +1423,10 @@
         "heroName": "Huskar",
         "heroImageName": "huskar",
         "attribute": "Strength",
+        "lanes": [
+            "Midlane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1232,6 +1447,9 @@
         "heroName": "Night Stalker",
         "heroImageName": "night_stalker",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1254,6 +1472,10 @@
         "heroName": "Broodmother",
         "heroImageName": "broodmother",
         "attribute": "Agility",
+        "lanes": [
+            "Offlane",
+            "Midlane"
+        ],
         "gender": "Female",
         "roles": [
             "Carry",
@@ -1276,6 +1498,9 @@
         "heroName": "Bounty Hunter",
         "heroImageName": "bounty_hunter",
         "attribute": "Agility",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Escape",
@@ -1296,6 +1521,10 @@
         "heroName": "Weaver",
         "heroImageName": "weaver",
         "attribute": "Agility",
+        "lanes": [
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1315,6 +1544,10 @@
         "heroName": "Jakiro",
         "heroImageName": "jakiro",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -1336,6 +1569,10 @@
         "heroName": "Batrider",
         "heroImageName": "batrider",
         "attribute": "Intelligence",
+        "lanes": [
+            "Offlane",
+            "Midlane"
+        ],
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -1358,6 +1595,11 @@
         "heroName": "Chen",
         "heroImageName": "chen",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane",
+            "Jungle",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -1378,6 +1620,9 @@
         "heroName": "Spectre",
         "heroImageName": "spectre",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Female",
         "roles": [
             "Carry",
@@ -1398,6 +1643,10 @@
         "heroName": "Ancient Apparition",
         "heroImageName": "ancient_apparition",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -1418,6 +1667,9 @@
         "heroName": "Doom",
         "heroImageName": "doom_bringer",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1440,6 +1692,9 @@
         "heroName": "Ursa",
         "heroImageName": "ursa",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1461,6 +1716,9 @@
         "heroName": "Spirit Breaker",
         "heroImageName": "spirit_breaker",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1483,6 +1741,10 @@
         "heroName": "Gyrocopter",
         "heroImageName": "gyrocopter",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1503,6 +1765,10 @@
         "heroName": "Alchemist",
         "heroImageName": "alchemist",
         "attribute": "Strength",
+        "lanes": [
+            "Midlane",
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1527,6 +1793,9 @@
         "heroName": "Invoker",
         "heroImageName": "invoker",
         "attribute": "Intelligence",
+        "lanes": [
+            "Midlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1549,6 +1818,11 @@
         "heroName": "Silencer",
         "heroImageName": "silencer",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane",
+            "Offlane",
+            "Midlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1571,6 +1845,9 @@
         "heroName": "Outworld Destroyer",
         "heroImageName": "obsidian_destroyer",
         "attribute": "Intelligence",
+        "lanes": [
+            "Midlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1591,6 +1868,10 @@
         "heroName": "Lycan",
         "heroImageName": "lycan",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1614,6 +1895,9 @@
         "heroName": "Brewmaster",
         "heroImageName": "brewmaster",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1638,6 +1922,10 @@
         "heroName": "Shadow Demon",
         "heroImageName": "shadow_demon",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -1659,6 +1947,11 @@
         "heroName": "Lone Druid",
         "heroImageName": "lone_druid",
         "attribute": "Agility",
+        "lanes": [
+            "Midlane",
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1681,6 +1974,10 @@
         "heroName": "Chaos Knight",
         "heroImageName": "chaos_knight",
         "attribute": "Strength",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1703,6 +2000,9 @@
         "heroName": "Meepo",
         "heroImageName": "meepo",
         "attribute": "Agility",
+        "lanes": [
+            "Midlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1727,6 +2027,10 @@
         "heroName": "Treant Protector",
         "heroImageName": "treant",
         "attribute": "Strength",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -1749,6 +2053,10 @@
         "heroName": "Ogre Magi",
         "heroImageName": "ogre_magi",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -1771,6 +2079,10 @@
         "heroName": "Undying",
         "heroImageName": "undying",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -1793,6 +2105,10 @@
         "heroName": "Rubick",
         "heroImageName": "rubick",
         "attribute": "Intelligence",
+        "lanes": [
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -1813,6 +2129,9 @@
         "heroName": "Disruptor",
         "heroImageName": "disruptor",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -1836,6 +2155,9 @@
         "heroName": "Nyx Assassin",
         "heroImageName": "nyx_assassin",
         "attribute": "Agility",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Disabler",
@@ -1858,6 +2180,9 @@
         "heroName": "Naga Siren",
         "heroImageName": "naga_siren",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Female",
         "roles": [
             "Carry",
@@ -1881,6 +2206,10 @@
         "heroName": "Keeper of the Light",
         "heroImageName": "keeper_of_the_light",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -1901,6 +2230,10 @@
         "heroName": "Io",
         "heroImageName": "wisp",
         "attribute": "Strength",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Other",
         "roles": [
             "Support",
@@ -1921,6 +2254,10 @@
         "heroName": "Visage",
         "heroImageName": "visage",
         "attribute": "Intelligence",
+        "lanes": [
+            "Midlane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -1943,6 +2280,9 @@
         "heroName": "Slark",
         "heroImageName": "slark",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1964,6 +2304,10 @@
         "heroName": "Medusa",
         "heroImageName": "medusa",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane",
+            "Midlane"
+        ],
         "gender": "Female",
         "roles": [
             "Carry",
@@ -1984,6 +2328,9 @@
         "heroName": "Troll Warlord",
         "heroImageName": "troll_warlord",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -2005,6 +2352,9 @@
         "heroName": "Centaur Warrunner",
         "heroImageName": "centaur",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Durable",
@@ -2027,6 +2377,9 @@
         "heroName": "Magnus",
         "heroImageName": "magnataur",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -2049,6 +2402,9 @@
         "heroName": "Timbersaw",
         "heroImageName": "shredder",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Nuker",
@@ -2069,6 +2425,9 @@
         "heroName": "Bristleback",
         "heroImageName": "bristleback",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -2091,6 +2450,9 @@
         "heroName": "Tusk",
         "heroImageName": "tusk",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -2112,6 +2474,11 @@
         "heroName": "Skywrath Mage",
         "heroImageName": "skywrath_mage",
         "attribute": "Intelligence",
+        "lanes": [
+            "Offlane",
+            "Safelane",
+            "Midlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -2132,6 +2499,10 @@
         "heroName": "Abaddon",
         "heroImageName": "abaddon",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -2153,6 +2524,10 @@
         "heroName": "Elder Titan",
         "heroImageName": "elder_titan",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -2174,6 +2549,9 @@
         "heroName": "Legion Commander",
         "heroImageName": "legion_commander",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Female",
         "roles": [
             "Carry",
@@ -2196,6 +2574,10 @@
         "heroName": "Techies",
         "heroImageName": "techies",
         "attribute": "Intelligence",
+        "lanes": [
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Nuker",
@@ -2215,6 +2597,9 @@
         "heroName": "Ember Spirit",
         "heroImageName": "ember_spirit",
         "attribute": "Agility",
+        "lanes": [
+            "Midlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -2237,6 +2622,9 @@
         "heroName": "Earth Spirit",
         "heroImageName": "earth_spirit",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Nuker",
@@ -2259,6 +2647,9 @@
         "heroName": "Underlord",
         "heroImageName": "abyssal_underlord",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -2281,6 +2672,9 @@
         "heroName": "Terrorblade",
         "heroImageName": "terrorblade",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -2301,6 +2695,10 @@
         "heroName": "Phoenix",
         "heroImageName": "phoenix",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Other",
         "roles": [
             "Support",
@@ -2324,6 +2722,9 @@
         "heroName": "Oracle",
         "heroImageName": "oracle",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -2345,6 +2746,10 @@
         "heroName": "Winter Wyvern",
         "heroImageName": "winter_wyvern",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Female",
         "roles": [
             "Support",
@@ -2365,6 +2770,10 @@
         "heroName": "Arc Warden",
         "heroImageName": "arc_warden",
         "attribute": "Agility",
+        "lanes": [
+            "Midlane",
+            "Safelane"
+        ],
         "gender": "Other",
         "roles": [
             "Carry",
@@ -2385,6 +2794,11 @@
         "heroName": "Monkey King",
         "heroImageName": "monkey_king",
         "attribute": "Agility",
+        "lanes": [
+            "Safelane",
+            "Midlane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -2408,6 +2822,10 @@
         "heroName": "Dark Willow",
         "heroImageName": "dark_willow",
         "attribute": "Intelligence",
+        "lanes": [
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Female",
         "roles": [
             "Support",
@@ -2429,6 +2847,10 @@
         "heroName": "Pangolier",
         "heroImageName": "pangolier",
         "attribute": "Agility",
+        "lanes": [
+            "Offlane",
+            "Midlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -2453,6 +2875,10 @@
         "heroName": "Grimstroke",
         "heroImageName": "grimstroke",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane",
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Support",
@@ -2475,6 +2901,10 @@
         "heroName": "Hoodwink",
         "heroImageName": "hoodwink",
         "attribute": "Agility",
+        "lanes": [
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Female",
         "roles": [
             "Support",
@@ -2497,6 +2927,9 @@
         "heroName": "Void Spirit",
         "heroImageName": "void_spirit",
         "attribute": "Intelligence",
+        "lanes": [
+            "Midlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -2518,6 +2951,10 @@
         "heroName": "Snapfire",
         "heroImageName": "snapfire",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Female",
         "roles": [
             "Support",
@@ -2540,6 +2977,9 @@
         "heroName": "Mars",
         "heroImageName": "mars",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Carry",
@@ -2561,6 +3001,9 @@
         "heroName": "Dawnbreaker",
         "heroImageName": "dawnbreaker",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Female",
         "roles": [
             "Carry",
@@ -2581,6 +3024,10 @@
         "heroName": "Marci",
         "heroImageName": "marci",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane",
+            "Safelane"
+        ],
         "gender": "Female",
         "roles": [
             "Support",
@@ -2603,6 +3050,9 @@
         "heroName": "Primal Beast",
         "heroImageName": "primal_beast",
         "attribute": "Strength",
+        "lanes": [
+            "Offlane"
+        ],
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -2624,6 +3074,11 @@
         "heroName": "Muerta",
         "heroImageName": "muerta",
         "attribute": "Intelligence",
+        "lanes": [
+            "Safelane",
+            "Offlane",
+            "Midlane"
+        ],
         "gender": "Female",
         "roles": [
             "Carry",
