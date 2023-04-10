@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    @font-face {
+        font-family: 'Mona Sans';
+        src:
+            url('./assets/fonts/Mona-Sans.woff2') format('woff2 supports variations'),
+            url('./assets/fonts/Mona-Sans.woff2') format('woff2-variations');
+        font-weight: 200 900;
+        font-stretch: 125% 125%;
+    }
+
+    html {
+        font-family: 'Mona Sans', system-ui, sans-serif;
+    }
+}
+
 html {
     /* https://www.reddit.com/r/DotA2/comments/2b2tjb/dota_2_background_incorporating_the_107_heroes/ */
     background-color: #020617;

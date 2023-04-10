@@ -4,7 +4,7 @@
         "heroId": 1,
         "heroName": "Anti-Mage",
         "heroImageName": "antimage",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -23,7 +23,7 @@
         "heroId": 2,
         "heroName": "Axe",
         "heroImageName": "axe",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -43,7 +43,7 @@
         "heroId": 3,
         "heroName": "Bane",
         "heroImageName": "bane",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Other",
         "roles": [
             "Support",
@@ -63,7 +63,7 @@
         "heroId": 4,
         "heroName": "Bloodseeker",
         "heroImageName": "bloodseeker",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -84,7 +84,7 @@
         "heroId": 5,
         "heroName": "Crystal Maiden",
         "heroImageName": "crystal_maiden",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Female",
         "roles": [
             "Support",
@@ -103,7 +103,7 @@
         "heroId": 6,
         "heroName": "Drow Ranger",
         "heroImageName": "drow_ranger",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Female",
         "roles": [
             "Carry",
@@ -122,7 +122,7 @@
         "heroId": 7,
         "heroName": "Earthshaker",
         "heroImageName": "earthshaker",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Support",
@@ -142,7 +142,7 @@
         "heroId": 8,
         "heroName": "Juggernaut",
         "heroImageName": "juggernaut",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -161,7 +161,7 @@
         "heroId": 9,
         "heroName": "Mirana",
         "heroImageName": "mirana",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Female",
         "roles": [
             "Carry",
@@ -182,7 +182,7 @@
         "heroId": 10,
         "heroName": "Morphling",
         "heroImageName": "morphling",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Other",
         "roles": [
             "Carry",
@@ -203,7 +203,7 @@
         "heroId": 11,
         "heroName": "Shadow Fiend",
         "heroImageName": "nevermore",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -221,7 +221,7 @@
         "heroId": 12,
         "heroName": "Phantom Lancer",
         "heroImageName": "phantom_lancer",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -242,7 +242,7 @@
         "heroId": 13,
         "heroName": "Puck",
         "heroImageName": "puck",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Other",
         "roles": [
             "Initiator",
@@ -263,7 +263,7 @@
         "heroId": 14,
         "heroName": "Pudge",
         "heroImageName": "pudge",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Disabler",
@@ -284,7 +284,7 @@
         "heroId": 15,
         "heroName": "Razor",
         "heroImageName": "razor",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -305,7 +305,7 @@
         "heroId": 16,
         "heroName": "Sand King",
         "heroImageName": "sand_king",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -327,7 +327,7 @@
         "heroId": 17,
         "heroName": "Storm Spirit",
         "heroImageName": "storm_spirit",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -348,7 +348,7 @@
         "heroId": 18,
         "heroName": "Sven",
         "heroImageName": "sven",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -370,7 +370,7 @@
         "heroId": 19,
         "heroName": "Tiny",
         "heroImageName": "tiny",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -393,7 +393,7 @@
         "heroId": 20,
         "heroName": "Vengeful Spirit",
         "heroImageName": "vengefulspirit",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Female",
         "roles": [
             "Support",
@@ -415,7 +415,7 @@
         "heroId": 21,
         "heroName": "Windranger",
         "heroImageName": "windrunner",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Female",
         "roles": [
             "Carry",
@@ -436,7 +436,7 @@
         "heroId": 22,
         "heroName": "Zeus",
         "heroImageName": "zuus",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Nuker",
@@ -454,7 +454,7 @@
         "heroId": 23,
         "heroName": "Kunkka",
         "heroImageName": "kunkka",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -476,7 +476,7 @@
         "heroId": 25,
         "heroName": "Lina",
         "heroImageName": "lina",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Female",
         "roles": [
             "Support",
@@ -496,7 +496,7 @@
         "heroId": 26,
         "heroName": "Lion",
         "heroImageName": "lion",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -517,7 +517,7 @@
         "heroId": 27,
         "heroName": "Shadow Shaman",
         "heroImageName": "shadow_shaman",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -538,7 +538,7 @@
         "heroId": 28,
         "heroName": "Slardar",
         "heroImageName": "slardar",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -559,7 +559,7 @@
         "heroId": 29,
         "heroName": "Tidehunter",
         "heroImageName": "tidehunter",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -581,7 +581,7 @@
         "heroId": 30,
         "heroName": "Witch Doctor",
         "heroImageName": "witch_doctor",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -600,7 +600,7 @@
         "heroId": 31,
         "heroName": "Lich",
         "heroImageName": "lich",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -619,7 +619,7 @@
         "heroId": 32,
         "heroName": "Riki",
         "heroImageName": "riki",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -639,7 +639,7 @@
         "heroId": 33,
         "heroName": "Enigma",
         "heroImageName": "enigma",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Other",
         "roles": [
             "Disabler",
@@ -658,7 +658,7 @@
         "heroId": 34,
         "heroName": "Tinker",
         "heroImageName": "tinker",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -677,7 +677,7 @@
         "heroId": 35,
         "heroName": "Sniper",
         "heroImageName": "sniper",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -695,7 +695,7 @@
         "heroId": 36,
         "heroName": "Necrophos",
         "heroImageName": "necrolyte",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -715,7 +715,7 @@
         "heroId": 37,
         "heroName": "Warlock",
         "heroImageName": "warlock",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -734,7 +734,7 @@
         "heroId": 38,
         "heroName": "Beastmaster",
         "heroImageName": "beastmaster",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -754,7 +754,7 @@
         "heroId": 39,
         "heroName": "Queen of Pain",
         "heroImageName": "queenofpain",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Female",
         "roles": [
             "Carry",
@@ -773,7 +773,7 @@
         "heroId": 40,
         "heroName": "Venomancer",
         "heroImageName": "venomancer",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Support",
@@ -795,7 +795,7 @@
         "heroId": 41,
         "heroName": "Faceless Void",
         "heroImageName": "faceless_void",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -816,7 +816,7 @@
         "heroId": 42,
         "heroName": "Wraith King",
         "heroImageName": "skeleton_king",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -838,7 +838,7 @@
         "heroId": 43,
         "heroName": "Death Prophet",
         "heroImageName": "death_prophet",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Female",
         "roles": [
             "Carry",
@@ -859,7 +859,7 @@
         "heroId": 44,
         "heroName": "Phantom Assassin",
         "heroImageName": "phantom_assassin",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Female",
         "roles": [
             "Carry",
@@ -877,7 +877,7 @@
         "heroId": 45,
         "heroName": "Pugna",
         "heroImageName": "pugna",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Nuker",
@@ -895,7 +895,7 @@
         "heroId": 46,
         "heroName": "Templar Assassin",
         "heroImageName": "templar_assassin",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Female",
         "roles": [
             "Carry",
@@ -913,7 +913,7 @@
         "heroId": 47,
         "heroName": "Viper",
         "heroImageName": "viper",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -934,7 +934,7 @@
         "heroId": 48,
         "heroName": "Luna",
         "heroImageName": "luna",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Female",
         "roles": [
             "Carry",
@@ -953,7 +953,7 @@
         "heroId": 49,
         "heroName": "Dragon Knight",
         "heroImageName": "dragon_knight",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -976,7 +976,7 @@
         "heroId": 50,
         "heroName": "Dazzle",
         "heroImageName": "dazzle",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -995,7 +995,7 @@
         "heroId": 51,
         "heroName": "Clockwerk",
         "heroImageName": "rattletrap",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -1015,7 +1015,7 @@
         "heroId": 52,
         "heroName": "Leshrac",
         "heroImageName": "leshrac",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1036,7 +1036,7 @@
         "heroId": 53,
         "heroName": "Nature's Prophet",
         "heroImageName": "furion",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1056,7 +1056,7 @@
         "heroId": 54,
         "heroName": "Lifestealer",
         "heroImageName": "life_stealer",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1076,7 +1076,7 @@
         "heroId": 55,
         "heroName": "Dark Seer",
         "heroImageName": "dark_seer",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -1095,7 +1095,7 @@
         "heroId": 56,
         "heroName": "Clinkz",
         "heroImageName": "clinkz",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1115,7 +1115,7 @@
         "heroId": 57,
         "heroName": "Omniknight",
         "heroImageName": "omniknight",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Support",
@@ -1134,7 +1134,7 @@
         "heroId": 58,
         "heroName": "Enchantress",
         "heroImageName": "enchantress",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Female",
         "roles": [
             "Support",
@@ -1154,7 +1154,7 @@
         "heroId": 59,
         "heroName": "Huskar",
         "heroImageName": "huskar",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1173,7 +1173,7 @@
         "heroId": 60,
         "heroName": "Night Stalker",
         "heroImageName": "night_stalker",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1194,7 +1194,7 @@
         "heroId": 61,
         "heroName": "Broodmother",
         "heroImageName": "broodmother",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Female",
         "roles": [
             "Carry",
@@ -1215,7 +1215,7 @@
         "heroId": 62,
         "heroName": "Bounty Hunter",
         "heroImageName": "bounty_hunter",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Escape",
@@ -1234,7 +1234,7 @@
         "heroId": 63,
         "heroName": "Weaver",
         "heroImageName": "weaver",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1252,7 +1252,7 @@
         "heroId": 64,
         "heroName": "Jakiro",
         "heroImageName": "jakiro",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -1272,7 +1272,7 @@
         "heroId": 65,
         "heroName": "Batrider",
         "heroImageName": "batrider",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -1293,7 +1293,7 @@
         "heroId": 66,
         "heroName": "Chen",
         "heroImageName": "chen",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -1312,7 +1312,7 @@
         "heroId": 67,
         "heroName": "Spectre",
         "heroImageName": "spectre",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Female",
         "roles": [
             "Carry",
@@ -1331,7 +1331,7 @@
         "heroId": 68,
         "heroName": "Ancient Apparition",
         "heroImageName": "ancient_apparition",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -1350,7 +1350,7 @@
         "heroId": 69,
         "heroName": "Doom",
         "heroImageName": "doom_bringer",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1371,7 +1371,7 @@
         "heroId": 70,
         "heroName": "Ursa",
         "heroImageName": "ursa",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1391,7 +1391,7 @@
         "heroId": 71,
         "heroName": "Spirit Breaker",
         "heroImageName": "spirit_breaker",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1412,7 +1412,7 @@
         "heroId": 72,
         "heroName": "Gyrocopter",
         "heroImageName": "gyrocopter",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1431,7 +1431,7 @@
         "heroId": 73,
         "heroName": "Alchemist",
         "heroImageName": "alchemist",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1454,7 +1454,7 @@
         "heroId": 74,
         "heroName": "Invoker",
         "heroImageName": "invoker",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1475,7 +1475,7 @@
         "heroId": 75,
         "heroName": "Silencer",
         "heroImageName": "silencer",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1496,7 +1496,7 @@
         "heroId": 76,
         "heroName": "Outworld Destroyer",
         "heroImageName": "obsidian_destroyer",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1515,7 +1515,7 @@
         "heroId": 77,
         "heroName": "Lycan",
         "heroImageName": "lycan",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1537,7 +1537,7 @@
         "heroId": 78,
         "heroName": "Brewmaster",
         "heroImageName": "brewmaster",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1560,7 +1560,7 @@
         "heroId": 79,
         "heroName": "Shadow Demon",
         "heroImageName": "shadow_demon",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -1580,7 +1580,7 @@
         "heroId": 80,
         "heroName": "Lone Druid",
         "heroImageName": "lone_druid",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1601,7 +1601,7 @@
         "heroId": 81,
         "heroName": "Chaos Knight",
         "heroImageName": "chaos_knight",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1622,7 +1622,7 @@
         "heroId": 82,
         "heroName": "Meepo",
         "heroImageName": "meepo",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1645,7 +1645,7 @@
         "heroId": 83,
         "heroName": "Treant Protector",
         "heroImageName": "treant",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Support",
@@ -1666,7 +1666,7 @@
         "heroId": 84,
         "heroName": "Ogre Magi",
         "heroImageName": "ogre_magi",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -1687,7 +1687,7 @@
         "heroId": 85,
         "heroName": "Undying",
         "heroImageName": "undying",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Support",
@@ -1708,7 +1708,7 @@
         "heroId": 86,
         "heroName": "Rubick",
         "heroImageName": "rubick",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -1727,7 +1727,7 @@
         "heroId": 87,
         "heroName": "Disruptor",
         "heroImageName": "disruptor",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -1739,7 +1739,7 @@
         "race": [
             "Oglodi",
             "Beast",
-            "Stryder"
+            "Strengthyder"
         ],
         "legs": 2,
         "releaseYear": 2007
@@ -1749,7 +1749,7 @@
         "heroId": 88,
         "heroName": "Nyx Assassin",
         "heroImageName": "nyx_assassin",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Disabler",
@@ -1770,7 +1770,7 @@
         "heroId": 89,
         "heroName": "Naga Siren",
         "heroImageName": "naga_siren",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Female",
         "roles": [
             "Carry",
@@ -1792,7 +1792,7 @@
         "heroId": 90,
         "heroName": "Keeper of the Light",
         "heroImageName": "keeper_of_the_light",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -1811,7 +1811,7 @@
         "heroId": 91,
         "heroName": "Io",
         "heroImageName": "wisp",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Other",
         "roles": [
             "Support",
@@ -1830,7 +1830,7 @@
         "heroId": 92,
         "heroName": "Visage",
         "heroImageName": "visage",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -1851,7 +1851,7 @@
         "heroId": 93,
         "heroName": "Slark",
         "heroImageName": "slark",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1871,7 +1871,7 @@
         "heroId": 94,
         "heroName": "Medusa",
         "heroImageName": "medusa",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Female",
         "roles": [
             "Carry",
@@ -1890,7 +1890,7 @@
         "heroId": 95,
         "heroName": "Troll Warlord",
         "heroImageName": "troll_warlord",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1910,7 +1910,7 @@
         "heroId": 96,
         "heroName": "Centaur Warrunner",
         "heroImageName": "centaur",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Durable",
@@ -1931,7 +1931,7 @@
         "heroId": 97,
         "heroName": "Magnus",
         "heroImageName": "magnataur",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -1952,7 +1952,7 @@
         "heroId": 98,
         "heroName": "Timbersaw",
         "heroImageName": "shredder",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Nuker",
@@ -1971,7 +1971,7 @@
         "heroId": 99,
         "heroName": "Bristleback",
         "heroImageName": "bristleback",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -1992,7 +1992,7 @@
         "heroId": 100,
         "heroName": "Tusk",
         "heroImageName": "tusk",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -2012,7 +2012,7 @@
         "heroId": 101,
         "heroName": "Skywrath Mage",
         "heroImageName": "skywrath_mage",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -2031,7 +2031,7 @@
         "heroId": 102,
         "heroName": "Abaddon",
         "heroImageName": "abaddon",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Support",
@@ -2051,7 +2051,7 @@
         "heroId": 103,
         "heroName": "Elder Titan",
         "heroImageName": "elder_titan",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -2071,7 +2071,7 @@
         "heroId": 104,
         "heroName": "Legion Commander",
         "heroImageName": "legion_commander",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Female",
         "roles": [
             "Carry",
@@ -2092,7 +2092,7 @@
         "heroId": 105,
         "heroName": "Techies",
         "heroImageName": "techies",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Nuker",
@@ -2110,7 +2110,7 @@
         "heroId": 106,
         "heroName": "Ember Spirit",
         "heroImageName": "ember_spirit",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -2131,7 +2131,7 @@
         "heroId": 107,
         "heroName": "Earth Spirit",
         "heroImageName": "earth_spirit",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Nuker",
@@ -2152,7 +2152,7 @@
         "heroId": 108,
         "heroName": "Underlord",
         "heroImageName": "abyssal_underlord",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Support",
@@ -2173,7 +2173,7 @@
         "heroId": 109,
         "heroName": "Terrorblade",
         "heroImageName": "terrorblade",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -2192,7 +2192,7 @@
         "heroId": 110,
         "heroName": "Phoenix",
         "heroImageName": "phoenix",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Other",
         "roles": [
             "Support",
@@ -2214,7 +2214,7 @@
         "heroId": 111,
         "heroName": "Oracle",
         "heroImageName": "oracle",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -2234,7 +2234,7 @@
         "heroId": 112,
         "heroName": "Winter Wyvern",
         "heroImageName": "winter_wyvern",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Female",
         "roles": [
             "Support",
@@ -2253,7 +2253,7 @@
         "heroId": 113,
         "heroName": "Arc Warden",
         "heroImageName": "arc_warden",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Other",
         "roles": [
             "Carry",
@@ -2272,7 +2272,7 @@
         "heroId": 114,
         "heroName": "Monkey King",
         "heroImageName": "monkey_king",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -2294,7 +2294,7 @@
         "heroId": 119,
         "heroName": "Dark Willow",
         "heroImageName": "dark_willow",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Female",
         "roles": [
             "Support",
@@ -2314,7 +2314,7 @@
         "heroId": 120,
         "heroName": "Pangolier",
         "heroImageName": "pangolier",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -2337,7 +2337,7 @@
         "heroId": 121,
         "heroName": "Grimstroke",
         "heroImageName": "grimstroke",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Support",
@@ -2358,7 +2358,7 @@
         "heroId": 123,
         "heroName": "Hoodwink",
         "heroImageName": "hoodwink",
-        "attribute": "Agi",
+        "attribute": "Agility",
         "gender": "Female",
         "roles": [
             "Support",
@@ -2379,7 +2379,7 @@
         "heroId": 126,
         "heroName": "Void Spirit",
         "heroImageName": "void_spirit",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -2399,7 +2399,7 @@
         "heroId": 128,
         "heroName": "Snapfire",
         "heroImageName": "snapfire",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Female",
         "roles": [
             "Support",
@@ -2420,7 +2420,7 @@
         "heroId": 129,
         "heroName": "Mars",
         "heroImageName": "mars",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Carry",
@@ -2440,7 +2440,7 @@
         "heroId": 135,
         "heroName": "Dawnbreaker",
         "heroImageName": "dawnbreaker",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Female",
         "roles": [
             "Carry",
@@ -2449,7 +2449,7 @@
         "rangeType": "Melee",
         "race": [
             "Star",
-            "Construct"
+            "ConStrengthuct"
         ],
         "legs": 2,
         "releaseYear": 2021
@@ -2459,7 +2459,7 @@
         "heroId": 136,
         "heroName": "Marci",
         "heroImageName": "marci",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Female",
         "roles": [
             "Support",
@@ -2480,7 +2480,7 @@
         "heroId": 137,
         "heroName": "Primal Beast",
         "heroImageName": "primal_beast",
-        "attribute": "Str",
+        "attribute": "Strength",
         "gender": "Male",
         "roles": [
             "Initiator",
@@ -2500,7 +2500,7 @@
         "heroId": 138,
         "heroName": "Muerta",
         "heroImageName": "muerta",
-        "attribute": "Int",
+        "attribute": "Intelligence",
         "gender": "Female",
         "roles": [
             "Carry",

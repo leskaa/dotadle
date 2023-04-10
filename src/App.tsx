@@ -29,9 +29,19 @@ function App() {
 
   return (
     <div className="app h-full w-full min-h-screen">
-      <header className="pt-5 flex place-content-center">
+      <header className="mb-4 pt-5 flex place-content-center">
         <img src={DotadleLogo} alt="Dotadle Logo" />
       </header>
+      {guessedHeroes.length === 0 && (
+        <div className="container mx-auto p-2 border border-slate-200 bg-slate-800 w-80 rounded-md">
+          <h2 className="text-slate-200 text-center font-bold text-xl">
+            Guess today's Dota 2 hero!
+          </h2>
+          <p className="text-slate-400 text-center font-semibold text-lg">
+            Type any hero to begin.
+          </p>
+        </div>
+      )}
       {guessedHeroes.includes(options[correctAnswerId]) && (
         <h2 className="mt-4 mb-8 text-slate-200 text-2xl font-bold flex place-content-center">
           Correct Answer&nbsp;
