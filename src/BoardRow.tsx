@@ -12,6 +12,7 @@ type BoardRowProps = {
   gender: string;
   rangeType: string;
   race: string[];
+  complexity: string;
   legs: number;
   releaseYear: number;
 };
@@ -61,6 +62,7 @@ const BoardRow = ({
   gender,
   rangeType,
   race,
+  complexity,
   legs,
   releaseYear,
 }: BoardRowProps) => {
@@ -101,6 +103,14 @@ const BoardRow = ({
           color={checkIfListsMatch(correctAnswer.race, race)}
           content={convertListToString(race)}
           isMultiline={true}
+        />
+        <Box
+          color={
+            correctAnswer.complexity === complexity
+              ? Colors.CORRECT
+              : Colors.INCORRECT
+          }
+          content={complexity}
         />
         <Box
           color={

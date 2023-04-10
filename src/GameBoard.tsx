@@ -27,6 +27,9 @@ const GameBoard = ({ guessedHeroes }: GameBoardProps) => {
           Races
         </h2>
         <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
+          Complexity
+        </h2>
+        <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
           Legs
         </h2>
         <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
@@ -46,6 +49,7 @@ const GameBoard = ({ guessedHeroes }: GameBoardProps) => {
             gender={hero.gender}
             rangeType={hero.rangeType}
             race={hero.race}
+            complexity={hero.complexity}
             legs={hero.legs}
             releaseYear={hero.releaseYear}
           />

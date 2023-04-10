@@ -8,6 +8,7 @@ type Hero = {
   roles: string[];
   rangeType: string;
   race: string[];
+  complexity: string;
   legs: number;
   releaseYear: number;
 };
