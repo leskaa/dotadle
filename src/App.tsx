@@ -22,7 +22,9 @@ function App() {
     setGuessedHeroes((guessedHeroes) => {
       return [
         ...guessedHeroes,
-        options.filter((entry) => entry.heroName === heroName)[0],
+        options.filter(
+          (entry) => entry.heroName.toLowerCase() === heroName.toLowerCase()
+        )[0],
       ];
     });
   };

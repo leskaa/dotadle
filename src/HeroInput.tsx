@@ -50,7 +50,9 @@ const HeroInput = ({
   const handleOnKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (
       event.key === "Enter" &&
-      options.filter((option) => option.heroName === inputValue).length > 0
+      options.filter(
+        (option) => option.heroName.toLowerCase() === inputValue.toLowerCase()
+      ).length > 0
     ) {
       handleGuessSubmission(inputValue);
       setShowOptions(false);
@@ -59,7 +61,11 @@ const HeroInput = ({
   };
 
   const handleButtonClick = (event: React.MouseEvent<HTMLElement>) => {
-    if (options.filter((option) => option.heroName === inputValue).length > 0) {
+    if (
+      options.filter(
+        (option) => option.heroName.toLowerCase() === inputValue.toLowerCase()
+      ).length > 0
+    ) {
       handleGuessSubmission(inputValue);
       setShowOptions(false);
       setInputValue("");
