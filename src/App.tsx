@@ -19,6 +19,7 @@ const correctAnswerId =
   ];
 
 function App() {
+  const heroes = options as Hero[];
   const guessedHeroes: Hero[] = useGuessesStore((state) => state.guessedHeroes);
   const handleHeroGuess = useGuessesStore((state) => state.addGuess);
 
@@ -50,15 +51,15 @@ function App() {
           </p>
         </div>
       )}
-      {guessedHeroes.includes(options[correctAnswerId]) && (
+      {guessedHeroes.some((hero) => (hero = heroes[correctAnswerId])) && (
         <h2 className="mt-4 mb-8 text-slate-200 text-2xl font-bold flex place-content-center">
           Correct Answer&nbsp;
-          <strong>{options[correctAnswerId].heroName}</strong>!
+          <strong>{heroes[correctAnswerId].heroName}</strong>!
         </h2>
       )}
       {
         // Display the input field only if the correct answer is not guessed yet
-        !guessedHeroes.includes(options[correctAnswerId]) && (
+        !guessedHeroes.some((hero) => (hero = heroes[correctAnswerId])) && (
           <HeroInput
             handleGuessSubmission={handleHeroGuess}
             guessedHeroes={guessedHeroes}
