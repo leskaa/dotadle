@@ -46,9 +46,15 @@ const GameBoard = ({ guessedHeroes }: GameBoardProps) => {
         <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
           Legs
         </h2>
-        <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
-          Release Year
-        </h2>
+        <div className="relative group">
+          <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
+            Release Year<div className="ordinal text-slate-400">&nbsp;*</div>
+          </h2>
+          <div className="absolute hidden group-hover:block duration-200 -right-2 -top-2 z-10 text-white border bg-slate-800 text-xs p-1 w-36 rounded-md">
+            Year the hero first appeared in a dota game (2004 -{" "}
+            {new Date().getFullYear()})
+          </div>
+        </div>
       </div>
       {guessedHeroes.length === 0 && <EmptyBoardRow />}
       {guessedHeroes // Create a shallow copy of prop and reverse order
