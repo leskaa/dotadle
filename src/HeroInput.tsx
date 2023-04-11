@@ -41,7 +41,7 @@ const HeroInput = ({
         // Remove hereos that are already guessed from the suggestions
         !guessedHeroes.some((hero) => hero.id === option.id) &&
         // Filter options based on the input value
-        option.heroName.toLowerCase().includes(inputValue.toLowerCase())
+        option.heroName.toLowerCase().startsWith(inputValue.toLowerCase())
     );
     setFilteredOptions(filteredOptions);
     setShowOptions(true);
