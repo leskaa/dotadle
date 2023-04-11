@@ -24,7 +24,7 @@ const CountdownClock = () => {
   }, []);
 
   return (
-    <div className="text-center font-extrabold text-amber-700 tracking-widest">
+    <div className="text-center font-extrabold text-amber-600 tracking-widest">
       {convertToDoubleDigits(Math.floor(time / 1000 / 60 / 60) % 60) +
         ":" +
         convertToDoubleDigits(Math.floor(time / 1000 / 60) % 60) +

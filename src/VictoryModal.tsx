@@ -13,7 +13,7 @@ const VictoryModal = () => {
     <div>
       Correct Answer&nbsp;
       <strong>{todaysHero?.heroName}</strong>!
-      <div className="mt-2 text-sm text-slate-400 text-center">
+      <div className="mt-2 text-sm text-slate-300 text-center">
         <hr className="w-1/3 mx-auto mb-2" />
         Next hero in →
       </div>

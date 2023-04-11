@@ -12,13 +12,11 @@ import useHighScoresStore from "./stores/highScoresStore";
 import VictoryModal from "./VictoryModal";
 
 // TODO: Remove hardcoded values
-const correctAnswerId =
-  answers[
-    Math.floor(
-      Math.abs(new Date().getTime() - new Date(2023, 3, 10).getTime()) /
-        (1000 * 3600 * 24)
-    )
-  ];
+const dayIndex = Math.floor(
+  Math.abs(new Date().getTime() - new Date(2023, 3, 10).getTime()) /
+    (1000 * 3600 * 24)
+);
+const correctAnswerId = answers[dayIndex];
 
 function App() {
   // Remove non-alpha local storage items
@@ -78,7 +76,7 @@ function App() {
         )
       }
       <GameBoard guessedHeroes={guessedHeroes} />
-      <div className="container mx-auto mb-4 p-2 border border-slate-200 bg-slate-800 w-80 rounded-md">
+      <div className="container mx-auto mb-2 p-2 border border-slate-200 bg-slate-800 w-80 rounded-md">
         <h2 className="text-slate-200 text-center font-bold text-xl">
           Color Guide
         </h2>
@@ -92,6 +90,16 @@ function App() {
           <Box color={Colors.INCORRECT} content="Incorrect" />
         </div>
       </div>
+      {correctAnswerId !== 0 && (
+        <p className="text-slate-300 text-center font-semibold text-md">
+          Yesterday's hero was{" "}
+          <em className="text-sm text-amber-500">#{dayIndex}&nbsp;&nbsp;</em>
+          <strong className="text-green-500 text-lg">
+            {heroes[answers[dayIndex - 1]].heroName}
+          </strong>
+        </p>
+      )}
+      <footer className="mb-4"></footer>
     </div>
   );
 }
