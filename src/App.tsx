@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import GameBoard from "./GameBoard";
 import HeroInput from "./HeroInput";
 import DotadleLogo from "./assets/DotadleAlphaLogo.png";
@@ -21,6 +21,12 @@ const correctAnswerId =
   ];
 
 function App() {
+  // Remove non-alpha local storage items
+  useEffect(() => {
+    localStorage.removeItem("guesses-store");
+    localStorage.removeItem("high-scores-store");
+  }, []);
+
   const heroes = options as Hero[];
   const guessedHeroes: Hero[] = useGuessesStore((state) => state.guessedHeroes);
   const handleHeroGuess = useGuessesStore((state) => state.addGuess);

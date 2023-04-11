@@ -29,8 +29,8 @@ const useGuessesStore = create<GuessesState>()(
           ],
         }));
         if (
-          (heroName =
-            options[answers[get().questionIndex]].heroName.toLowerCase())
+          heroName.toLowerCase() ==
+          options[answers[get().questionIndex]].heroName.toLowerCase()
         ) {
           useHighScoresStore
             .getState()
@@ -40,7 +40,7 @@ const useGuessesStore = create<GuessesState>()(
       removaAllGuesses: () => set({ guessedHeroes: [] }),
     }),
     {
-      name: "guesses-store",
+      name: "guesses-store-alpha",
     }
   )
 );
