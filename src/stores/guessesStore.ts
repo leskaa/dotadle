@@ -1,7 +1,9 @@
 import { create } from "zustand";
-import { createJSONStorage, persist } from "zustand/middleware";
+import { persist } from "zustand/middleware";
 import Hero from "../types/hero";
 import options from "../datasets/heroData.json";
+import answers from "../datasets/answerIds.json";
+import useHighScoresStore from "./highScoresStore";
 
 interface GuessesState {
   questionIndex: number;
@@ -13,7 +15,7 @@ interface GuessesState {
 
 const useGuessesStore = create<GuessesState>()(
   persist(
-    (set) => ({
+    (set, get) => ({
       questionIndex: 0,
       guessedHeroes: [],
       setQuestionIndex: (index) => set({ questionIndex: index }),
@@ -26,12 +28,19 @@ const useGuessesStore = create<GuessesState>()(
             )[0],
           ],
         }));
+        if (
+          (heroName =
+            options[answers[get().questionIndex]].heroName.toLowerCase())
+        ) {
+          useHighScoresStore
+            .getState()
+            .addScore(get().questionIndex, get().guessedHeroes.length);
+        }
       },
       removaAllGuesses: () => set({ guessedHeroes: [] }),
     }),
     {
-      name: "guessesStore",
-      storage: createJSONStorage(() => localStorage),
+      name: "guesses-store",
     }
   )
 );

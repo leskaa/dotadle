@@ -8,6 +8,7 @@ import answers from "./datasets/answerIds.json";
 import { Box } from "./Box";
 import Colors from "./types/colors";
 import useGuessesStore from "./stores/guessesStore";
+import useHighScoresStore from "./stores/highScoresStore";
 
 // TODO: Remove hardcoded values
 const correctAnswerId =
@@ -51,7 +52,9 @@ function App() {
           </p>
         </div>
       )}
-      {guessedHeroes.some((hero) => (hero = heroes[correctAnswerId])) && (
+      {guessedHeroes.some(
+        (hero) => hero.heroId == heroes[correctAnswerId].heroId
+      ) && (
         <h2 className="mt-4 mb-8 text-slate-200 text-2xl font-bold flex place-content-center">
           Correct Answer&nbsp;
           <strong>{heroes[correctAnswerId].heroName}</strong>!
@@ -59,7 +62,9 @@ function App() {
       )}
       {
         // Display the input field only if the correct answer is not guessed yet
-        !guessedHeroes.some((hero) => (hero = heroes[correctAnswerId])) && (
+        !guessedHeroes.some(
+          (hero) => hero.heroId == heroes[correctAnswerId].heroId
+        ) && (
           <HeroInput
             handleGuessSubmission={handleHeroGuess}
             guessedHeroes={guessedHeroes}
