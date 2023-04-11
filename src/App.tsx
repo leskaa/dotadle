@@ -22,6 +22,19 @@ function App() {
   const guessedHeroes: Hero[] = useGuessesStore((state) => state.guessedHeroes);
   const handleHeroGuess = useGuessesStore((state) => state.addGuess);
 
+  // Reset local storage if the date has changed
+  const localQuestionIndex = useGuessesStore((state) => state.questionIndex);
+  const setQuestionIndex = useGuessesStore((state) => state.setQuestionIndex);
+  const removaAllGuesses = useGuessesStore((state) => state.removaAllGuesses);
+  const questionIndexToday = Math.floor(
+    Math.abs(new Date().getTime() - new Date(2023, 3, 10).getTime()) /
+      (1000 * 3600 * 24)
+  );
+  if (questionIndexToday !== localQuestionIndex) {
+    setQuestionIndex(questionIndexToday);
+    removaAllGuesses();
+  }
+
   return (
     <div className="app h-full w-full min-h-screen">
       <header className="mb-4 pt-5 flex place-content-center">
