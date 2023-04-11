@@ -1,10 +1,6 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-
-interface Score {
-  questionId: number;
-  score: number;
-}
+import Score from "../types/score";
 
 interface HighScoresState {
   scores: Score[];
