@@ -9,6 +9,7 @@ import { Box } from "./Box";
 import Colors from "./types/colors";
 import useGuessesStore from "./stores/guessesStore";
 import useHighScoresStore from "./stores/highScoresStore";
+import VictoryModal from "./VictoryModal";
 
 // TODO: Remove hardcoded values
 const correctAnswerId =
@@ -55,9 +56,8 @@ function App() {
       {guessedHeroes.some(
         (hero) => hero.heroId == heroes[correctAnswerId].heroId
       ) && (
-        <h2 className="mt-4 mb-8 text-slate-200 text-2xl font-bold flex place-content-center">
-          Correct Answer&nbsp;
-          <strong>{heroes[correctAnswerId].heroName}</strong>!
+        <h2 className="mt-4 mb-4 text-slate-200 text-2xl font-bold flex place-content-center">
+          <VictoryModal />
         </h2>
       )}
       {
