@@ -5,6 +5,8 @@ import DotadleLogo from "./assets/DotadleAlphaLogo.png";
 import Hero from "./types/hero";
 import options from "./datasets/heroData.json";
 import answers from "./datasets/answerIds.json";
+import { Box } from "./Box";
+import Colors from "./types/colors";
 
 // TODO: Remove hardcoded values
 const correctAnswerId =
@@ -60,6 +62,20 @@ function App() {
         )
       }
       <GameBoard guessedHeroes={guessedHeroes} />
+      <div className="container mx-auto mb-4 p-2 border border-slate-200 bg-slate-800 w-80 rounded-md">
+        <h2 className="text-slate-200 text-center font-bold text-xl">
+          Color Guide
+        </h2>
+        <div className="flex justify-center items-center p-1">
+          <Box color={Colors.CORRECT} content="Correct" />
+          <Box
+            color={Colors.PARTIAL}
+            content="Partially Correct"
+            isMultiline={true}
+          />
+          <Box color={Colors.INCORRECT} content="Incorrect" />
+        </div>
+      </div>
     </div>
   );
 }

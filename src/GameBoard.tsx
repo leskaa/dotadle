@@ -9,7 +9,7 @@ type GameBoardProps = {
 
 const GameBoard = ({ guessedHeroes }: GameBoardProps) => {
   return (
-    <div className="mt-4 mb-8">
+    <div className="mt-4 mb-4">
       <div className="flex place-content-center">
         <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
           Hero
@@ -19,9 +19,9 @@ const GameBoard = ({ guessedHeroes }: GameBoardProps) => {
         </h2>
         <div className="relative group">
           <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
-            Lane<div className="ordinal text-slate-400">&nbsp;*</div>
+            Lane(s)<div className="ordinal text-slate-400">&nbsp;*</div>
           </h2>
-          <div className="absolute hidden group-hover:block duration-200 -right-10 -top-2 z-10 text-white border bg-slate-800 text-xs p-1 w-48 rounded-md">
+          <div className="absolute hidden group-hover:block duration-200 -right-6 -top-2 z-10 text-white border bg-slate-800 text-xs p-1 w-40 rounded-md">
             Lanes in which the hero appears in over <strong>20%</strong> of
             matches (Patch 7.32)
           </div>
@@ -33,7 +33,7 @@ const GameBoard = ({ guessedHeroes }: GameBoardProps) => {
           Range Type
         </h2>
         <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
-          Races
+          Species
         </h2>
         <div className="relative group">
           <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
