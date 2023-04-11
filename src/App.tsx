@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from "react";
 import GameBoard from "./GameBoard";
 import HeroInput from "./HeroInput";
 import DotadleLogo from "./assets/DotadleAlphaLogo.png";
@@ -7,6 +7,7 @@ import options from "./datasets/heroData.json";
 import answers from "./datasets/answerIds.json";
 import { Box } from "./Box";
 import Colors from "./types/colors";
+import useGuessesStore from "./stores/guessesStore";
 
 // TODO: Remove hardcoded values
 const correctAnswerId =
@@ -18,18 +19,8 @@ const correctAnswerId =
   ];
 
 function App() {
-  const [guessedHeroes, setGuessedHeroes] = useState<Hero[]>([]);
-
-  const handleHeroGuess = (heroName: string) => {
-    setGuessedHeroes((guessedHeroes) => {
-      return [
-        ...guessedHeroes,
-        options.filter(
-          (entry) => entry.heroName.toLowerCase() === heroName.toLowerCase()
-        )[0],
-      ];
-    });
-  };
+  const guessedHeroes: Hero[] = useGuessesStore((state) => state.guessedHeroes);
+  const handleHeroGuess = useGuessesStore((state) => state.addGuess);
 
   return (
     <div className="app h-full w-full min-h-screen">
