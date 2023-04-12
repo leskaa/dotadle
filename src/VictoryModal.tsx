@@ -139,7 +139,7 @@ const VictoryModal = () => {
     }
 
     return `I found #DOTADLE hero #${
-      scores[scores.length - 1]?.questionId
+      scores[scores.length - 1]?.questionId + 1
     } in ${scoreToday} attempts!\n${emojis}${overflowGuesses}https://dotadle.netlify.app`;
   };
 

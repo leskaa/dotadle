@@ -20,11 +20,12 @@ export const Box = ({
   return (
     <div
       className={`border m-1 w-28 h-16 flex justify-center items-center text-slate-200 font-semibold leading-none ${color} ${
-        isMultiline && "text-center leading-tight"
+        isMultiline && "text-center leading-tight whitespace-pre-wrap"
       } ${isImage && "bg-slate-800"} ${
         // Resize text if it's multiline and has a line longer than 10 characters
         isMultiline &&
-        content.split("\n").some((line) => line.length > 10) &&
+        (content.split("\n").some((line) => line.length > 10) ||
+          content.split("\n").length > 2) &&
         "text-sm"
       }`}
     >
