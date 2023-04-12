@@ -5,7 +5,7 @@ const PatchNotes = () => {
     <div className="absolute z-10 top-0 right-0 w-60 h-36 px-4 text-slate-200 border-l border-b border-slate-200 rounded-bl-md bg-slate-800">
       <h2 className="text-lg text-center m-2 font-semibold">Patch Notes</h2>
       <h2 className="text-md text-center font-semibold underline">
-        Tuesday, April 12
+        Wednesday, April 12
       </h2>
       <ul className="text-center">
         <li className="text-xs m-1">

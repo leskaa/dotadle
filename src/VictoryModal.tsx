@@ -85,11 +85,11 @@ const VictoryModal = () => {
           emojis += `🟥`;
         }
         if (
-          checkIfListsMatch(heroToday?.roles, hero.roles) === Colors.CORRECT
+          checkIfListsMatch(heroToday?.lanes, hero.lanes) === Colors.CORRECT
         ) {
           emojis += `🟩`;
         } else if (
-          checkIfListsMatch(heroToday?.roles, hero.roles) === Colors.PARTIAL
+          checkIfListsMatch(heroToday?.lanes, hero.lanes) === Colors.PARTIAL
         ) {
           emojis += `🟨`;
         } else {
