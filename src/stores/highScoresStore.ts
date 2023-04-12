@@ -18,7 +18,7 @@ const useHighScoresStore = create<HighScoresState>()(
       },
     }),
     {
-      name: "high-scores-store-alpha",
+      name: "high-scores-store-beta",
     }
   )
 );

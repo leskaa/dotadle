@@ -40,7 +40,7 @@ const useGuessesStore = create<GuessesState>()(
       removaAllGuesses: () => set({ guessedHeroes: [] }),
     }),
     {
-      name: "guesses-store-alpha",
+      name: "guesses-store-beta",
     }
   )
 );

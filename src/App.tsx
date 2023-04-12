@@ -10,19 +10,21 @@ import Colors from "./types/colors";
 import useGuessesStore from "./stores/guessesStore";
 import VictoryModal from "./VictoryModal";
 import PatchNotes from "./PatchNotes";
+import CountdownClock from "./CountdownClock";
 
 // TODO: Remove hardcoded values
 const dayIndex = Math.floor(
-  Math.abs(new Date().getTime() - new Date(2023, 3, 10).getTime()) /
-    (1000 * 3600 * 24)
+  (new Date().getTime() - new Date(2023, 3, 12).getTime()) / (1000 * 3600 * 24)
 );
 const correctAnswerId = answers[dayIndex];
 
 function App() {
-  // Remove non-alpha local storage items
+  // Remove non-season 1 local storage items
   useEffect(() => {
     localStorage.removeItem("guesses-store");
     localStorage.removeItem("high-scores-store");
+    localStorage.removeItem("guesses-store-alpha");
+    localStorage.removeItem("high-scores-store-alpha");
   }, []);
 
   const heroes = options as Hero[];
@@ -34,12 +36,22 @@ function App() {
   const setQuestionIndex = useGuessesStore((state) => state.setQuestionIndex);
   const removaAllGuesses = useGuessesStore((state) => state.removaAllGuesses);
   const questionIndexToday = Math.floor(
-    Math.abs(new Date().getTime() - new Date(2023, 3, 10).getTime()) /
+    Math.abs(new Date().getTime() - new Date(2023, 3, 12).getTime()) /
       (1000 * 3600 * 24)
   );
   if (questionIndexToday !== localQuestionIndex) {
     setQuestionIndex(questionIndexToday);
     removaAllGuesses();
+  }
+
+  if (dayIndex < 0) {
+    return (
+      <div className="app h-full w-full min-h-screen text-white mt-8 text-center text-3xl">
+        <em className="text-2xl text-red-600 font-extrabold">DOTADLE</em>
+        &nbsp;&nbsp;Season 1 starts on April 12th, 2023!
+        <CountdownClock />
+      </div>
+    );
   }
 
   return (
@@ -93,12 +105,12 @@ function App() {
           <Box color={Colors.INCORRECT} content="Incorrect" />
         </div>
       </div>
-      {correctAnswerId !== 0 && (
+      {dayIndex !== 0 && (
         <p className="text-slate-300 text-center font-semibold text-md">
           Yesterday's hero was{" "}
           <em className="text-sm text-amber-500">#{dayIndex}&nbsp;&nbsp;</em>
           <strong className="text-green-500 text-lg">
-            {heroes[answers[dayIndex - 1]].heroName}
+            {heroes[answers[dayIndex - 1]]?.heroName}
           </strong>
         </p>
       )}

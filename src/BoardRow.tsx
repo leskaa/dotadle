@@ -21,7 +21,7 @@ type BoardRowProps = {
 const correctAnswerId =
   answers[
     Math.floor(
-      Math.abs(new Date().getTime() - new Date(2023, 3, 10).getTime()) /
+      Math.abs(new Date().getTime() - new Date(2023, 3, 12).getTime()) /
         (1000 * 3600 * 24)
     )
   ];
