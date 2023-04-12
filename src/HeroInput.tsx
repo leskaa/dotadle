@@ -30,7 +30,7 @@ const HeroInput = ({
 }: HeroInputProps) => {
   const [inputValue, setInputValue] = useState<string>("");
   const [showOptions, setShowOptions] = useState<boolean>(false);
-  const [filteredOptions, setFilteredOptions] = useState<Option[]>([]);
+  const [filteredOptions, setFilteredOptions] = useState<Option[]>(options);
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const inputValue = event.target.value;
@@ -95,6 +95,7 @@ const HeroInput = ({
             value={inputValue}
             placeholder="Type hero name..."
             onChange={handleInputChange}
+            onFocus={() => setShowOptions(true)}
             onKeyDown={handleOnKeyDown}
             onBlur={handleInputBlur}
             className="w-full h-10 px-4 py-2 border bg-slate-800 border-gray-300 text-slate-200 rounded-md shadow-sm focus:outline-none focus:ring-amber-600 focus:border-amber-600 sm:text-sm"
@@ -113,21 +114,23 @@ const HeroInput = ({
           </div>
           {showOptions && (
             <ul className="absolute z-10 w-full py-1 mt-1 overflow-auto bg-slate-800 rounded-md shadow-lg max-h-60">
-              {filteredOptions.map((option) => (
-                <li
-                  key={option.id}
-                  data-value={option.heroName}
-                  onMouseDown={handleOptionMouseDown}
-                  className="px-4 py-1 text-sm text-slate-200 cursor-pointer hover:bg-slate-900"
-                >
-                  <img
-                    src={convertHeroNameToImageURL(option.heroImageName)}
-                    alt={option.heroImageName}
-                    className="object-cover w-12 pr-1 inline"
-                  ></img>
-                  {option.heroName}
-                </li>
-              ))}
+              {filteredOptions
+                .sort((a, b) => ("" + a.heroName).localeCompare(b.heroName))
+                .map((option) => (
+                  <li
+                    key={option.id}
+                    data-value={option.heroName}
+                    onMouseDown={handleOptionMouseDown}
+                    className="px-4 py-1 text-sm text-slate-200 cursor-pointer hover:bg-slate-900"
+                  >
+                    <img
+                      src={convertHeroNameToImageURL(option.heroImageName)}
+                      alt={option.heroImageName}
+                      className="object-cover w-12 pr-1 inline"
+                    ></img>
+                    {option.heroName}
+                  </li>
+                ))}
             </ul>
           )}
         </div>
