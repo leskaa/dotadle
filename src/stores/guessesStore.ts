@@ -30,7 +30,9 @@ const useGuessesStore = create<GuessesState>()(
         }));
         if (
           heroName.toLowerCase() ==
-          options[answers[get().questionIndex]].heroName.toLowerCase()
+          options
+            .filter((option) => option.id === answers[get().questionIndex])[0]
+            .heroName.toLowerCase()
         ) {
           useHighScoresStore
             .getState()

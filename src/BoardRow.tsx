@@ -68,7 +68,9 @@ const BoardRow = ({
   legs,
   releaseYear,
 }: BoardRowProps) => {
-  const correctAnswer: Hero = options[correctAnswerId];
+  const correctAnswer: Hero = options.filter(
+    (option) => option.id === correctAnswerId
+  )[0];
 
   return (
     <div className="flex place-content-center">

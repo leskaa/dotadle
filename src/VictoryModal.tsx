@@ -56,9 +56,9 @@ const checkIfListsMatch = (
   correctList: string[],
   guessedList: string[]
 ): Colors => {
-  if (correctList.sort().join(",") === guessedList.sort().join(",")) {
+  if (correctList?.sort().join(",") === guessedList.sort().join(",")) {
     return Colors.CORRECT;
-  } else if (correctList.some((role) => guessedList.includes(role))) {
+  } else if (correctList?.some((role) => guessedList.includes(role))) {
     return Colors.PARTIAL;
   } else {
     return Colors.INCORRECT;
@@ -68,7 +68,9 @@ const checkIfListsMatch = (
 const VictoryModal = () => {
   const scores = useHighScoresStore((state) => state.scores);
   const guessedHeroes = useGuessesStore((state) => state.guessedHeroes);
-  const heroToday = options[answers[scores[scores.length - 1]?.questionId]];
+  const heroToday = options.filter(
+    (option) => option.id === answers[scores[scores.length - 1]?.questionId]
+  )[0];
   const imageURL = `https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/${heroToday?.heroImageName}.png`;
   const scoreToday = scores.at(scores.length - 1)?.score;
 

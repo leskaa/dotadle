@@ -73,7 +73,9 @@ function App() {
         </div>
       )}
       {guessedHeroes.some(
-        (hero) => hero.heroId == heroes[correctAnswerId].heroId
+        (hero) =>
+          hero.heroId ==
+          heroes.filter((option) => option.id === correctAnswerId)[0].heroId
       ) && (
         <h2 className="mt-4 mb-4 text-slate-200 text-2xl font-bold flex place-content-center">
           <VictoryModal />
@@ -82,7 +84,9 @@ function App() {
       {
         // Display the input field only if the correct answer is not guessed yet
         !guessedHeroes.some(
-          (hero) => hero.heroId == heroes[correctAnswerId].heroId
+          (hero) =>
+            hero.heroId ==
+            heroes.filter((options) => options.id === correctAnswerId)[0].heroId
         ) && (
           <HeroInput
             handleGuessSubmission={handleHeroGuess}
@@ -110,7 +114,10 @@ function App() {
           Yesterday's hero was{" "}
           <em className="text-sm text-amber-500">#{dayIndex}&nbsp;&nbsp;</em>
           <strong className="text-green-500 text-lg">
-            {heroes[answers[dayIndex - 1]]?.heroName}
+            {
+              heroes.filter((option) => option.id === answers[dayIndex - 1])[0]
+                ?.heroName
+            }
           </strong>
         </p>
       )}

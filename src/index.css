@@ -39,5 +39,5 @@ html {
     /* https://www.reddit.com/r/DotA2/comments/2b2tjb/dota_2_background_incorporating_the_107_heroes/ */
     background-color: #020617;
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('/src/assets/DotaHeroesBackground.webp');
-    background-size: cover;
+    background-size: contain;
 }
