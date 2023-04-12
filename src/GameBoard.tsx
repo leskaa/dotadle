@@ -19,11 +19,11 @@ const GameBoard = ({ guessedHeroes }: GameBoardProps) => {
         </h2>
         <div className="relative group">
           <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
-            Lane(s)<div className="ordinal text-slate-400">&nbsp;*</div>
+            Position(s)<div className="ordinal text-slate-400">&nbsp;*</div>
           </h2>
-          <div className="absolute hidden group-hover:block duration-200 -right-6 -top-2 z-10 text-white border bg-slate-800 text-xs p-1 w-40 rounded-md">
-            Lanes in which the hero appears in over <strong>20%</strong> of
-            matches (Patch 7.32)
+          <div className="absolute hidden group-hover:block duration-200 -right-14 -top-2 z-10 text-white border bg-slate-800 text-xs p-1 w-56 rounded-md">
+            Positions from dota2protracker on patch 7.32. Sorted by frequency.
+            Max 4 positions per hero.
           </div>
         </div>
         <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">
