@@ -20,6 +20,14 @@ const useGuessesStore = create<GuessesState>()(
       guessedHeroes: [],
       setQuestionIndex: (index) => set({ questionIndex: index }),
       addGuess: (heroName) => {
+        // Prevent duplicate guesses
+        if (
+          get().guessedHeroes.some(
+            (hero) => hero.heroName.toLowerCase() === heroName.toLowerCase()
+          )
+        ) {
+          return;
+        }
         set((state) => ({
           guessedHeroes: [
             ...state.guessedHeroes,

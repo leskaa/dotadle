@@ -54,9 +54,10 @@ const HeroInput = ({
         (option) => option.heroName.toLowerCase() === inputValue.toLowerCase()
       ).length > 0
     ) {
-      handleGuessSubmission(inputValue);
-      setShowOptions(false);
+      const guessText = inputValue;
       setInputValue("");
+      setShowOptions(false);
+      handleGuessSubmission(guessText);
     }
   };
 
@@ -66,9 +67,10 @@ const HeroInput = ({
         (option) => option.heroName.toLowerCase() === inputValue.toLowerCase()
       ).length > 0
     ) {
-      handleGuessSubmission(inputValue);
-      setShowOptions(false);
+      const guessText = inputValue;
       setInputValue("");
+      setShowOptions(false);
+      handleGuessSubmission(guessText);
     } else {
       alert("Invalid hero name!");
     }
