@@ -1,15 +1,15 @@
 import React, { useEffect } from "react";
 import GameBoard from "./GameBoard";
 import HeroInput from "./HeroInput";
-import DotadleLogo from "./assets/DotadleAlphaLogo.png";
+import DotadleLogo from "./assets/DotadleBetaLogo.png";
 import Hero from "./types/hero";
 import options from "./datasets/heroData.json";
 import answers from "./datasets/answerIds.json";
 import { Box } from "./Box";
 import Colors from "./types/colors";
 import useGuessesStore from "./stores/guessesStore";
-import useHighScoresStore from "./stores/highScoresStore";
 import VictoryModal from "./VictoryModal";
+import PatchNotes from "./PatchNotes";
 
 // TODO: Remove hardcoded values
 const dayIndex = Math.floor(
@@ -44,6 +44,9 @@ function App() {
 
   return (
     <div className="app h-full w-full min-h-screen">
+      <div className="relative">
+        <PatchNotes />
+      </div>
       <header className="mb-4 pt-5 flex place-content-center">
         <img src={DotadleLogo} alt="Dotadle Logo" />
       </header>
