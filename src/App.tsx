@@ -121,7 +121,30 @@ function App() {
           </strong>
         </p>
       )}
-      <footer className="mb-4"></footer>
+      <footer className="mt-4 p-2 text-slate-300 text-sm text-center">
+        <strong className="text-sm font-bold">DOTADLE</strong> — Created by{" "}
+        <a
+          className="text-amber-600 hover:text-amber-500"
+          href="https://github.com/leskaa"
+        >
+          @leskaa
+        </a>{" "}
+        <br />
+        Heavily inspired by{" "}
+        <a
+          className="text-cyan-600 hover:text-cyan-500"
+          href="https://loldle.net/"
+        >
+          LoLdle.net
+        </a>{" "}
+        —{" "}
+        <a
+          className="text-amber-600 hover:text-amber-500"
+          href="https://www.reddit.com/r/DotA2/comments/2b2tjb/dota_2_background_incorporating_the_107_heroes/"
+        >
+          Background Attribution
+        </a>
+      </footer>
     </div>
   );
 }
