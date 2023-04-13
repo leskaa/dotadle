@@ -137,7 +137,9 @@ const VictoryModal = () => {
     let overflowGuesses = "";
 
     if (guessedHeroes.length > 6) {
-      overflowGuesses = `+${guessedHeroes.length - 6} more guesses\n`;
+      overflowGuesses = `+${guessedHeroes.length - 6} more guess${
+        guessedHeroes.length > 7 ? "es" : ""
+      }\n`;
     }
 
     return `I found #DOTADLE hero #${
