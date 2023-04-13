@@ -101,7 +101,7 @@ const HeroInput = ({
   return (
     <div className="mt-2 mb-2 mx-auto container flex justify-center items-center">
       <div className="flex items-center justify-center">
-        <div className="w-80 relative">
+        <div className="w-64 sm:w-80 relative">
           <input
             type="text"
             value={inputValue}
@@ -125,7 +125,7 @@ const HeroInput = ({
             </a>
           </div>
           {showOptions && (
-            <ul className="absolute z-10 w-full py-1 mt-1 overflow-auto bg-slate-800 rounded-md shadow-lg max-h-60">
+            <ul className="absolute z-20 w-full py-1 mt-1 overflow-auto bg-slate-800 rounded-md shadow-lg max-h-60">
               {filteredOptions
                 .sort((a, b) => ("" + a.heroName).localeCompare(b.heroName))
                 .map((option) => (

@@ -4,7 +4,7 @@ import upDownArrow from "./assets/up-down-arrow.svg";
 const PatchNotes = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div>
+    <div className="max-[390px]:hidden">
       <a
         className={`${
           isOpen ? "right-[186px]" : "-right-[69px]"
