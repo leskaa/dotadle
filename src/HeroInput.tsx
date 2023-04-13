@@ -47,6 +47,16 @@ const HeroInput = ({
     setShowOptions(true);
   };
 
+  const handleOnFocus = () => {
+    const guessesRemovedOptions = filteredOptions.filter(
+      (option) =>
+        // Remove hereos that are already guessed from the suggestions
+        !guessedHeroes.some((hero) => hero.id === option.id)
+    );
+    setFilteredOptions(guessesRemovedOptions);
+    setShowOptions(true);
+  };
+
   const handleOnKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (
       event.key === "Enter" &&
@@ -97,7 +107,7 @@ const HeroInput = ({
             value={inputValue}
             placeholder="Type hero name..."
             onChange={handleInputChange}
-            onFocus={() => setShowOptions(true)}
+            onFocus={handleOnFocus}
             onKeyDown={handleOnKeyDown}
             onBlur={handleInputBlur}
             className="w-full h-10 px-4 py-2 border bg-slate-800 border-gray-300 text-slate-200 rounded-md shadow-sm focus:outline-none focus:ring-amber-600 focus:border-amber-600 sm:text-sm"
