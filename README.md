@@ -9,6 +9,6 @@ Dotadle is a wordle-style game inspired heavily by the classic mode on [loldle.n
 - &#9745; Gameplay instructions
 - &#9745; Game state local storage
 - &#9745; Past scores in local storage
-- &#9744; Responsive layout for mobile devices
+- &#9745; Responsive layout for mobile devices
 - &#9745; Share score button
 - &#9745; Hover instructions for categories
