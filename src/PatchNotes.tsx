@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import upDownArrow from "./assets/up-down-arrow.svg";
 
 const PatchNotes = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -6,11 +7,15 @@ const PatchNotes = () => {
     <div>
       <a
         className={`${
-          isOpen ? "right-[188px]" : "-right-[68px]"
-        } absolute z-10 pt-1 pr-0 pl-2 pb-0 top-16 transform -rotate-90 text-slate-200 select-none text-lg font-semibold border-l border-t bg-slate-800 rounded-tl-md hover:bg-slate-700`}
+          isOpen ? "right-[186px]" : "-right-[69px]"
+        } absolute z-10 pt-1 pr-4 pl-2 pb-0 top-16 transform -rotate-90 text-slate-200 select-none text-lg font-semibold border-l border-t bg-slate-800 rounded-tl-md hover:bg-slate-700`}
         onClick={() => setIsOpen(!isOpen)}
       >
-        PATCH NOTES &#8597; &nbsp;
+        PATCH NOTES
+        <span className="absolute right-0 -translate-x-2 translate-y-[0.45rem]">
+          <img src={upDownArrow} className="w-3 h-3" />
+        </span>{" "}
+        &nbsp;
       </a>
       <div
         className={`${

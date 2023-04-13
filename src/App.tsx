@@ -55,7 +55,7 @@ function App() {
   }
 
   return (
-    <div className="app h-full w-full min-h-screen flex flex-col">
+    <div className="app h-full w-full min-h-screen flex flex-col overflow-x-hidden">
       <div className="relative">
         <PatchNotes />
       </div>
@@ -77,7 +77,7 @@ function App() {
           hero.heroId ==
           heroes.filter((option) => option.id === correctAnswerId)[0].heroId
       ) && (
-        <h2 className="mt-4 mb-4 text-slate-200 text-2xl font-bold flex place-content-center">
+        <h2 className="mt-4 text-slate-200 text-2xl font-bold flex place-content-center">
           <VictoryModal />
         </h2>
       )}

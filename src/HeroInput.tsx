@@ -99,7 +99,7 @@ const HeroInput = ({
   };
 
   return (
-    <div className="mt-4 mx-auto container flex justify-center items-center">
+    <div className="mt-2 mb-2 mx-auto container flex justify-center items-center">
       <div className="flex items-center justify-center">
         <div className="w-80 relative">
           <input

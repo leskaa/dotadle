@@ -9,7 +9,7 @@ type GameBoardProps = {
 
 const GameBoard = ({ guessedHeroes }: GameBoardProps) => {
   return (
-    <div className="mt-4 mb-4 flex flex-nowrap overflow-x-auto scrolling-touch">
+    <div className="pt-2 mb-4 flex flex-nowrap overflow-x-auto scrolling-touch md:place-content-center">
       <div className="">
         <div className="flex place-content-center">
           <h2 className="text-slate-200 whitespace-nowrap font-bold text-sm w-28 m-1 p-1 border-b-4 flex justify-center items-center">

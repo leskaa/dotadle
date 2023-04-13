@@ -17,6 +17,10 @@
         overflow-x: hidden;
     }
 
+    body {
+        overflow-x: hidden;
+    }
+
     sub,
     sup {
         font-size: 50%;
