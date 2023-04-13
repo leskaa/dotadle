@@ -6,7 +6,7 @@ const PatchNotes = () => {
     <div>
       <a
         className={`${
-          isOpen ? "-right-[68px]" : "right-[188px]"
+          isOpen ? "right-[188px]" : "-right-[68px]"
         } absolute z-10 pt-1 pr-0 pl-2 pb-0 top-16 transform -rotate-90 text-slate-200 select-none text-lg font-semibold border-l border-t bg-slate-800 rounded-tl-md hover:bg-slate-700`}
         onClick={() => setIsOpen(!isOpen)}
       >
@@ -14,7 +14,7 @@ const PatchNotes = () => {
       </a>
       <div
         className={`${
-          isOpen ? "-right-64" : "right-0"
+          isOpen ? "right-0" : "-right-64"
         } absolute z-10 top-0 w-64 h-52 px-4 text-slate-200 border-l border-b border-slate-200 rounded-bl-md bg-slate-800`}
       >
         <h2 className="mt-2 text-md text-center font-semibold underline">

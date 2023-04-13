@@ -55,7 +55,7 @@ function App() {
   }
 
   return (
-    <div className="app h-full w-full min-h-screen">
+    <div className="app h-full w-full min-h-screen flex flex-col">
       <div className="relative">
         <PatchNotes />
       </div>
@@ -121,7 +121,7 @@ function App() {
           </strong>
         </p>
       )}
-      <footer className="mt-4 p-2 text-slate-300 text-sm text-center">
+      <footer className="mt-auto p-2 text-slate-300 text-sm text-center">
         <strong className="text-sm font-bold">DOTADLE</strong> — Created by{" "}
         <a
           className="text-amber-600 hover:text-amber-500"
