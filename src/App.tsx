@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import GameBoard from "./GameBoard";
 import HeroInput from "./HeroInput";
-import DotadleLogo from "./assets/DotadleBetaLogo.png";
+import DotadleLogo from "./assets/DotadleLogo.png";
 import Hero from "./types/hero";
 import options from "./datasets/heroData.json";
 import answers from "./datasets/answerIds.json";
