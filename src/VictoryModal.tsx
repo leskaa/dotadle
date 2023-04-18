@@ -102,11 +102,6 @@ const VictoryModal = () => {
         } else {
           emojis += `🟥`;
         }
-        if (heroToday?.rangeType === hero.rangeType) {
-          emojis += `🟩`;
-        } else {
-          emojis += `🟥`;
-        }
         if (checkIfListsMatch(heroToday?.race, hero.race) === Colors.CORRECT) {
           emojis += `🟩`;
         } else if (
@@ -144,7 +139,9 @@ const VictoryModal = () => {
 
     return `I found #DOTADLE hero #${
       scores[scores.length - 1]?.questionId + 1
-    } in ${scoreToday} attempts!\n${emojis}${overflowGuesses}https://dotadle.netlify.app`;
+    } in ${scoreToday} attempt${
+      guessedHeroes.length > 1 ? "s" : ""
+    }!\n${emojis}${overflowGuesses}https://dotadle.netlify.app`;
   };
 
   const handleCopyButtonClick = (e: React.MouseEvent<HTMLElement>) => {

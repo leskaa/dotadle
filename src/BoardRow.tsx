@@ -11,7 +11,6 @@ type BoardRowProps = {
   attribute: string;
   lanes: string[];
   gender: string;
-  rangeType: string;
   race: string[];
   complexity: string;
   legs: number;
@@ -62,7 +61,6 @@ const BoardRow = ({
   attribute,
   lanes,
   gender,
-  rangeType,
   race,
   complexity,
   legs,
@@ -99,14 +97,6 @@ const BoardRow = ({
             correctAnswer.gender === gender ? Colors.CORRECT : Colors.INCORRECT
           }
           content={gender}
-        />
-        <Box
-          color={
-            correctAnswer.rangeType === rangeType
-              ? Colors.CORRECT
-              : Colors.INCORRECT
-          }
-          content={rangeType}
         />
         <Box
           color={checkIfListsMatch(correctAnswer.race, race)}

@@ -20,9 +20,9 @@ const PatchNotes = () => {
       <div
         className={`${
           isOpen ? "right-0" : "-right-64"
-        } absolute z-10 top-0 w-64 h-52 px-4 text-slate-200 border-l border-b border-slate-200 rounded-bl-md bg-slate-800`}
+        } absolute z-10 top-0 w-64 h-72 px-4 text-slate-200 border-l border-b border-slate-200 rounded-bl-md bg-slate-800`}
       >
-        <h2 className="mt-2 text-md text-center font-semibold underline">
+        <h2 className="mt-4 text-md text-center font-semibold underline">
           Wednesday, April 12
         </h2>
         <ul className="text-center">
@@ -55,6 +55,15 @@ const PatchNotes = () => {
           <li className="text-xs m-1">
             <strong>Death Prophet</strong> is now <strong>Elf Undead</strong>{" "}
             (formerly <strong>Human Undead</strong>)
+          </li>
+        </ul>
+        <h2 className="text-md text-center font-semibold underline">
+          Tuesday, April 18
+        </h2>
+        <ul className="text-center">
+          <li className="text-xs m-1">
+            Removed <strong>Range Type</strong> from categories to increase
+            difficulty
           </li>
         </ul>
       </div>
