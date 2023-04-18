@@ -121,10 +121,12 @@ const VictoryModal = () => {
         } else {
           emojis += `🟥`;
         }
-        if (heroToday?.releaseYear === hero.releaseYear) {
-          emojis += `🟩`;
+        if (heroToday?.releaseYear > hero.releaseYear) {
+          emojis += `⬆️`;
+        } else if (heroToday?.releaseYear < hero.releaseYear) {
+          emojis += `⬇️`;
         } else {
-          emojis += `🟥`;
+          emojis += `🟩`;
         }
         emojis += "\n";
       });
