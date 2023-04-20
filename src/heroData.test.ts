@@ -4,9 +4,9 @@ import Hero from "./types/hero";
 
 const createHeroGridEntryHash = (hero: Hero) => {
   return (
+    hero.attribute +
     hero.lanes.join("") +
     hero.gender +
-    hero.rangeType +
     hero.race.join("") +
     hero.complexity +
     hero.legs.toString() +

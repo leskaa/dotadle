@@ -1064,7 +1064,7 @@
         ],
         "rangeType": "Melee",
         "race": [
-            "Elf"
+            "Human"
         ],
         "legs": 2,
         "complexity": "Easy",
@@ -1161,7 +1161,9 @@
         ],
         "rangeType": "Ranged",
         "race": [
-            "Human"
+            "Human",
+            "Beast",
+            "Cat"
         ],
         "legs": 2,
         "complexity": "Easy",
