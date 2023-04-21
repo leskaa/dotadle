@@ -51,7 +51,7 @@
         "heroId": 3,
         "heroName": "Bane",
         "heroImageName": "bane",
-        "attribute": "Intelligence",
+        "attribute": "Universal",
         "lanes": [
             "Support (5)"
         ],
@@ -196,7 +196,7 @@
         "heroId": 9,
         "heroName": "Mirana",
         "heroImageName": "mirana",
-        "attribute": "Agility",
+        "attribute": "Universal",
         "lanes": [
             "Support (4)",
             "Support (5)"
@@ -374,7 +374,7 @@
         "heroId": 16,
         "heroName": "Sand King",
         "heroImageName": "sand_king",
-        "attribute": "Strength",
+        "attribute": "Universal",
         "lanes": [
             "Offlane"
         ],
@@ -480,7 +480,7 @@
         "heroId": 20,
         "heroName": "Vengeful Spirit",
         "heroImageName": "vengefulspirit",
-        "attribute": "Agility",
+        "attribute": "Universal",
         "lanes": [
             "Support (5)",
             "Support (4)"
@@ -507,7 +507,7 @@
         "heroId": 21,
         "heroName": "Windranger",
         "heroImageName": "windrunner",
-        "attribute": "Intelligence",
+        "attribute": "Universal",
         "lanes": [
             "Support (4)",
             "Mid",
@@ -786,7 +786,7 @@
         "heroId": 33,
         "heroName": "Enigma",
         "heroImageName": "enigma",
-        "attribute": "Intelligence",
+        "attribute": "Universal",
         "lanes": [
             "Offlane"
         ],
@@ -903,7 +903,7 @@
         "heroId": 38,
         "heroName": "Beastmaster",
         "heroImageName": "beastmaster",
-        "attribute": "Strength",
+        "attribute": "Universal",
         "lanes": [
             "Offlane"
         ],
@@ -950,7 +950,7 @@
         "heroId": 40,
         "heroName": "Venomancer",
         "heroImageName": "venomancer",
-        "attribute": "Agility",
+        "attribute": "Universal",
         "lanes": [
             "Offlane"
         ],
@@ -1202,7 +1202,7 @@
         "heroId": 50,
         "heroName": "Dazzle",
         "heroImageName": "dazzle",
-        "attribute": "Intelligence",
+        "attribute": "Universal",
         "lanes": [
             "Support (5)"
         ],
@@ -1225,7 +1225,7 @@
         "heroId": 51,
         "heroName": "Clockwerk",
         "heroImageName": "rattletrap",
-        "attribute": "Strength",
+        "attribute": "Universal",
         "lanes": [
             "Support (5)",
             "Support (4)"
@@ -1325,7 +1325,7 @@
         "heroId": 55,
         "heroName": "Dark Seer",
         "heroImageName": "dark_seer",
-        "attribute": "Intelligence",
+        "attribute": "Universal",
         "lanes": [
             "Offlane"
         ],
@@ -1471,7 +1471,7 @@
         "heroId": 61,
         "heroName": "Broodmother",
         "heroImageName": "broodmother",
-        "attribute": "Agility",
+        "attribute": "Universal",
         "lanes": [
             "Offlane",
             "Mid"
@@ -1570,7 +1570,7 @@
         "heroId": 65,
         "heroName": "Batrider",
         "heroImageName": "batrider",
-        "attribute": "Intelligence",
+        "attribute": "Universal",
         "lanes": [
             "Mid",
             "Offlane"
@@ -1596,7 +1596,7 @@
         "heroId": 66,
         "heroName": "Chen",
         "heroImageName": "chen",
-        "attribute": "Intelligence",
+        "attribute": "Universal",
         "lanes": [
             "Support (5)"
         ],
@@ -1873,7 +1873,7 @@
         "heroId": 77,
         "heroName": "Lycan",
         "heroImageName": "lycan",
-        "attribute": "Strength",
+        "attribute": "Universal",
         "lanes": [
             "Offlane",
             "Mid"
@@ -1900,7 +1900,7 @@
         "heroId": 78,
         "heroName": "Brewmaster",
         "heroImageName": "brewmaster",
-        "attribute": "Strength",
+        "attribute": "Universal",
         "lanes": [
             "Offlane"
         ],
@@ -1952,7 +1952,7 @@
         "heroId": 80,
         "heroName": "Lone Druid",
         "heroImageName": "lone_druid",
-        "attribute": "Agility",
+        "attribute": "Universal",
         "lanes": [
             "Mid",
             "Carry"
@@ -2057,7 +2057,7 @@
         "heroId": 84,
         "heroName": "Ogre Magi",
         "heroImageName": "ogre_magi",
-        "attribute": "Intelligence",
+        "attribute": "Strength",
         "lanes": [
             "Support (5)"
         ],
@@ -2160,7 +2160,7 @@
         "heroId": 88,
         "heroName": "Nyx Assassin",
         "heroImageName": "nyx_assassin",
-        "attribute": "Agility",
+        "attribute": "Universal",
         "lanes": [
             "Support (4)"
         ],
@@ -2236,7 +2236,7 @@
         "heroId": 91,
         "heroName": "Io",
         "heroImageName": "wisp",
-        "attribute": "Strength",
+        "attribute": "Universal",
         "lanes": [
             "Support (5)",
             "Support (4)"
@@ -2260,7 +2260,7 @@
         "heroId": 92,
         "heroName": "Visage",
         "heroImageName": "visage",
-        "attribute": "Intelligence",
+        "attribute": "Universal",
         "lanes": [
             "Offlane"
         ],
@@ -2381,7 +2381,7 @@
         "heroId": 97,
         "heroName": "Magnus",
         "heroImageName": "magnataur",
-        "attribute": "Strength",
+        "attribute": "Universal",
         "lanes": [
             "Offlane",
             "Support (4)",
@@ -2409,7 +2409,7 @@
         "heroId": 98,
         "heroName": "Timbersaw",
         "heroImageName": "shredder",
-        "attribute": "Strength",
+        "attribute": "Universal",
         "lanes": [
             "Offlane",
             "Mid"
@@ -2510,7 +2510,7 @@
         "heroId": 102,
         "heroName": "Abaddon",
         "heroImageName": "abaddon",
-        "attribute": "Strength",
+        "attribute": "Universal",
         "lanes": [
             "Carry",
             "Support (5)"
@@ -2586,7 +2586,7 @@
         "heroId": 105,
         "heroName": "Techies",
         "heroImageName": "techies",
-        "attribute": "Intelligence",
+        "attribute": "Universal",
         "lanes": [
             "Support (4)",
             "Support (5)"
@@ -2707,7 +2707,7 @@
         "heroId": 110,
         "heroName": "Phoenix",
         "heroImageName": "phoenix",
-        "attribute": "Strength",
+        "attribute": "Universal",
         "lanes": [
             "Support (5)",
             "Support (4)",
@@ -2759,7 +2759,7 @@
         "heroId": 112,
         "heroName": "Winter Wyvern",
         "heroImageName": "winter_wyvern",
-        "attribute": "Intelligence",
+        "attribute": "Universal",
         "lanes": [
             "Offlane",
             "Support (5)",
@@ -2862,7 +2862,7 @@
         "heroId": 120,
         "heroName": "Pangolier",
         "heroImageName": "pangolier",
-        "attribute": "Agility",
+        "attribute": "Universal",
         "lanes": [
             "Mid",
             "Offlane"
@@ -2943,7 +2943,7 @@
         "heroId": 126,
         "heroName": "Void Spirit",
         "heroImageName": "void_spirit",
-        "attribute": "Intelligence",
+        "attribute": "Universal",
         "lanes": [
             "Mid",
             "Offlane"
@@ -2968,7 +2968,7 @@
         "heroId": 128,
         "heroName": "Snapfire",
         "heroImageName": "snapfire",
-        "attribute": "Strength",
+        "attribute": "Universal",
         "lanes": [
             "Support (4)",
             "Offlane",
@@ -3047,7 +3047,7 @@
         "heroId": 136,
         "heroName": "Marci",
         "heroImageName": "marci",
-        "attribute": "Strength",
+        "attribute": "Universal",
         "lanes": [
             "Offlane",
             "Carry",
