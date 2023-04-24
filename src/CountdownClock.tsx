@@ -12,12 +12,12 @@ const CountdownClock = () => {
 
   const tick = () => {
     const currentTime = new Date().getTime();
-    const midnight = new Date();
-    // CST is UTC - 6 hours
-    // A 5 hour offset is used to account for getTimezoneOffset adjusting for DST
-    midnight.setHours(24 + 5, 0, 0, 0);
+    const startingTime = new Date(2023, 3, 12, 5).getTime();
     const timezoneAdjustment = new Date().getTimezoneOffset() * 60 * 1000;
-    setTime(midnight.getTime() - currentTime - timezoneAdjustment);
+    const milisecondsUntilNextDay =
+      1000 * 3600 * 24 -
+      ((currentTime - startingTime + timezoneAdjustment) % (1000 * 3600 * 24));
+    setTime(milisecondsUntilNextDay);
   };
 
   useEffect(() => {
@@ -28,6 +28,7 @@ const CountdownClock = () => {
   }, []);
 
   // if the time is negative, return "NOW"
+  // TODO: Fix this by moving the time functions into a shared file and using the guessesStore
   if (
     convertToDoubleDigits(Math.floor(time / 1000 / 60 / 60) % 60).includes("-")
   ) {
