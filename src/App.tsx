@@ -12,9 +12,11 @@ import VictoryModal from "./VictoryModal";
 import PatchNotes from "./PatchNotes";
 import CountdownClock from "./CountdownClock";
 
-// TODO: Remove hardcoded values
+const currentTime = new Date().getTime();
+const startingTime = new Date(2023, 3, 12, 5).getTime();
+const timezoneAdjustment = new Date().getTimezoneOffset() * 60 * 1000;
 const dayIndex = Math.floor(
-  (new Date().getTime() - new Date(2023, 3, 12).getTime()) / (1000 * 3600 * 24)
+  (currentTime - startingTime + timezoneAdjustment) / (1000 * 3600 * 24)
 );
 const correctAnswerId = answers[dayIndex];
 

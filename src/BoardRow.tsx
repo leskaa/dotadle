@@ -17,13 +17,13 @@ type BoardRowProps = {
   releaseYear: number;
 };
 
-const correctAnswerId =
-  answers[
-    Math.floor(
-      Math.abs(new Date().getTime() - new Date(2023, 3, 12).getTime()) /
-        (1000 * 3600 * 24)
-    )
-  ];
+const currentTime = new Date().getTime();
+const startingTime = new Date(2023, 3, 12, 5).getTime();
+const timezoneAdjustment = new Date().getTimezoneOffset() * 60 * 1000;
+const dayIndex = Math.floor(
+  (currentTime - startingTime + timezoneAdjustment) / (1000 * 3600 * 24)
+);
+const correctAnswerId = answers[dayIndex];
 
 const checkIfListsMatch = (
   correctList: string[],

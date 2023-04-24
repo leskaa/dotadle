@@ -11,9 +11,13 @@ const CountdownClock = () => {
   const [time, setTime] = useState(0);
 
   const tick = () => {
-    const midight = new Date();
-    midight.setHours(24, 0, 0, 0);
-    setTime(midight.getTime() - new Date().getTime());
+    const currentTime = new Date().getTime();
+    const midnight = new Date();
+    // CST is UTC - 6 hours
+    // A 5 hour offset is used to account for getTimezoneOffset adjusting for DST
+    midnight.setHours(24 + 5, 0, 0, 0);
+    const timezoneAdjustment = new Date().getTimezoneOffset() * 60 * 1000;
+    setTime(midnight.getTime() - currentTime - timezoneAdjustment);
   };
 
   useEffect(() => {
