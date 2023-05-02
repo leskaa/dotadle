@@ -20,7 +20,7 @@ const PatchNotes = () => {
       <div
         className={`${
           isOpen ? "right-0" : "-right-64"
-        } absolute z-10 top-0 w-64 h-[30rem] px-4 text-slate-200 border-l border-b border-slate-200 rounded-bl-md bg-slate-800`}
+        } absolute z-10 top-0 w-64 h-[34rem] px-4 text-slate-200 border-l border-b border-slate-200 rounded-bl-md bg-slate-800`}
       >
         <h2 className="mt-3 text-md text-center font-semibold underline">
           Wednesday, April 12
@@ -67,7 +67,7 @@ const PatchNotes = () => {
           </li>
         </ul>
         <h2 className="text-md text-center font-semibold underline">
-          Thursday, April 20 (7.33)
+          Thursday, April 20
         </h2>
         <ul className="text-center">
           <li className="text-xs m-1">
@@ -88,6 +88,15 @@ const PatchNotes = () => {
           <li className="text-xs m-1">
             <strong>Ogre Magi</strong> is now <strong>Strength</strong>{" "}
             Attribute (formerly <strong>Intelligence</strong>)
+          </li>
+        </ul>
+        <h2 className="text-md text-center font-semibold underline">
+          Tuesday, May 2
+        </h2>
+        <ul className="text-center">
+          <li className="text-xs m-1">
+            <strong>Position(s)</strong> updated to match initial 7.33
+            Dota2ProTracker release
           </li>
         </ul>
       </div>

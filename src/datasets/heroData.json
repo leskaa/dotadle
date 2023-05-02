@@ -53,7 +53,8 @@
         "heroImageName": "bane",
         "attribute": "Universal",
         "lanes": [
-            "Support (5)"
+            "Support (5)",
+            "Support (4)"
         ],
         "gender": "Other",
         "roles": [
@@ -77,7 +78,8 @@
         "heroImageName": "bloodseeker",
         "attribute": "Agility",
         "lanes": [
-            "Carry"
+            "Carry",
+            "Offlane"
         ],
         "gender": "Male",
         "roles": [
@@ -150,8 +152,7 @@
         "attribute": "Strength",
         "lanes": [
             "Support (4)",
-            "Offlane",
-            "Mid"
+            "Offlane"
         ],
         "gender": "Male",
         "roles": [
@@ -323,10 +324,10 @@
         "heroImageName": "pudge",
         "attribute": "Strength",
         "lanes": [
-            "Support (5)",
             "Support (4)",
-            "Carry",
-            "Offlane"
+            "Support (5)",
+            "Offlane",
+            "Carry"
         ],
         "gender": "Male",
         "roles": [
@@ -376,7 +377,8 @@
         "heroImageName": "sand_king",
         "attribute": "Universal",
         "lanes": [
-            "Offlane"
+            "Offlane",
+            "Mid"
         ],
         "gender": "Male",
         "roles": [
@@ -453,9 +455,8 @@
         "heroImageName": "tiny",
         "attribute": "Strength",
         "lanes": [
-            "Support (4)",
             "Mid",
-            "Support (5)"
+            "Support (4)"
         ],
         "gender": "Male",
         "roles": [
@@ -538,8 +539,7 @@
         "attribute": "Intelligence",
         "lanes": [
             "Mid",
-            "Support (4)",
-            "Support (5)"
+            "Carry"
         ],
         "gender": "Male",
         "roles": [
@@ -561,7 +561,8 @@
         "heroImageName": "kunkka",
         "attribute": "Strength",
         "lanes": [
-            "Mid"
+            "Mid",
+            "Carry"
         ],
         "gender": "Male",
         "roles": [
@@ -611,8 +612,8 @@
         "heroImageName": "lion",
         "attribute": "Intelligence",
         "lanes": [
-            "Support (5)",
-            "Support (4)"
+            "Support (4)",
+            "Support (5)"
         ],
         "gender": "Male",
         "roles": [
@@ -715,7 +716,7 @@
         "attribute": "Intelligence",
         "lanes": [
             "Support (5)",
-            "Offlane"
+            "Support (4)"
         ],
         "gender": "Male",
         "roles": [
@@ -738,7 +739,8 @@
         "heroImageName": "lich",
         "attribute": "Intelligence",
         "lanes": [
-            "Support (5)"
+            "Support (5)",
+            "Support (4)"
         ],
         "gender": "Male",
         "roles": [
@@ -761,10 +763,10 @@
         "heroImageName": "riki",
         "attribute": "Agility",
         "lanes": [
+            "Carry",
             "Mid",
-            "Support (4)",
             "Offlane",
-            "Carry"
+            "Support (4)"
         ],
         "gender": "Male",
         "roles": [
@@ -834,8 +836,8 @@
         "heroImageName": "sniper",
         "attribute": "Agility",
         "lanes": [
-            "Carry",
-            "Mid"
+            "Mid",
+            "Carry"
         ],
         "gender": "Male",
         "roles": [
@@ -905,7 +907,8 @@
         "heroImageName": "beastmaster",
         "attribute": "Universal",
         "lanes": [
-            "Offlane"
+            "Offlane",
+            "Mid"
         ],
         "gender": "Male",
         "roles": [
@@ -929,7 +932,8 @@
         "heroImageName": "queenofpain",
         "attribute": "Intelligence",
         "lanes": [
-            "Mid"
+            "Mid",
+            "Offlane"
         ],
         "gender": "Female",
         "roles": [
@@ -952,7 +956,9 @@
         "heroImageName": "venomancer",
         "attribute": "Universal",
         "lanes": [
-            "Offlane"
+            "Offlane",
+            "Support (5)",
+            "Support (4)"
         ],
         "gender": "Male",
         "roles": [
@@ -1177,7 +1183,8 @@
         "attribute": "Strength",
         "lanes": [
             "Offlane",
-            "Mid"
+            "Mid",
+            "Carry"
         ],
         "gender": "Male",
         "roles": [
@@ -1204,7 +1211,8 @@
         "heroImageName": "dazzle",
         "attribute": "Universal",
         "lanes": [
-            "Support (5)"
+            "Support (5)",
+            "Support (4)"
         ],
         "gender": "Male",
         "roles": [
@@ -1252,7 +1260,8 @@
         "heroImageName": "leshrac",
         "attribute": "Intelligence",
         "lanes": [
-            "Mid"
+            "Mid",
+            "Offlane"
         ],
         "gender": "Male",
         "roles": [
@@ -1278,8 +1287,7 @@
         "attribute": "Intelligence",
         "lanes": [
             "Offlane",
-            "Carry",
-            "Mid"
+            "Carry"
         ],
         "gender": "Male",
         "roles": [
@@ -1350,7 +1358,10 @@
         "heroImageName": "clinkz",
         "attribute": "Agility",
         "lanes": [
-            "Carry"
+            "Carry",
+            "Mid",
+            "Support (5)",
+            "Support (4)"
         ],
         "gender": "Male",
         "roles": [
@@ -1374,6 +1385,8 @@
         "heroImageName": "omniknight",
         "attribute": "Strength",
         "lanes": [
+            "Mid",
+            "Offlane",
             "Support (5)"
         ],
         "gender": "Male",
@@ -1423,8 +1436,7 @@
         "heroImageName": "huskar",
         "attribute": "Strength",
         "lanes": [
-            "Mid",
-            "Carry"
+            "Mid"
         ],
         "gender": "Male",
         "roles": [
@@ -1447,8 +1459,7 @@
         "heroImageName": "night_stalker",
         "attribute": "Strength",
         "lanes": [
-            "Offlane",
-            "Carry"
+            "Offlane"
         ],
         "gender": "Male",
         "roles": [
@@ -1473,8 +1484,7 @@
         "heroImageName": "broodmother",
         "attribute": "Universal",
         "lanes": [
-            "Offlane",
-            "Mid"
+            "Offlane"
         ],
         "gender": "Female",
         "roles": [
@@ -1525,7 +1535,10 @@
         "heroImageName": "weaver",
         "attribute": "Agility",
         "lanes": [
-            "Carry"
+            "Carry",
+            "Support (4)",
+            "Support (5)",
+            "Offlane"
         ],
         "gender": "Male",
         "roles": [
@@ -1598,7 +1611,8 @@
         "heroImageName": "chen",
         "attribute": "Universal",
         "lanes": [
-            "Support (5)"
+            "Support (5)",
+            "Support (4)"
         ],
         "gender": "Male",
         "roles": [
@@ -1644,7 +1658,8 @@
         "heroImageName": "ancient_apparition",
         "attribute": "Intelligence",
         "lanes": [
-            "Support (5)"
+            "Support (5)",
+            "Support (4)"
         ],
         "gender": "Male",
         "roles": [
@@ -1669,7 +1684,6 @@
         "lanes": [
             "Offlane",
             "Support (4)",
-            "Carry",
             "Mid"
         ],
         "gender": "Male",
@@ -1721,8 +1735,7 @@
         "lanes": [
             "Support (4)",
             "Offlane",
-            "Support (5)",
-            "Mid"
+            "Support (5)"
         ],
         "gender": "Male",
         "roles": [
@@ -1748,7 +1761,8 @@
         "attribute": "Agility",
         "lanes": [
             "Support (5)",
-            "Support (4)"
+            "Support (4)",
+            "Carry"
         ],
         "gender": "Male",
         "roles": [
@@ -1773,7 +1787,8 @@
         "lanes": [
             "Carry",
             "Offlane",
-            "Mid"
+            "Mid",
+            "Support (4)"
         ],
         "gender": "Male",
         "roles": [
@@ -1851,8 +1866,7 @@
         "heroImageName": "obsidian_destroyer",
         "attribute": "Intelligence",
         "lanes": [
-            "Mid",
-            "Offlane"
+            "Mid"
         ],
         "gender": "Male",
         "roles": [
@@ -1902,7 +1916,9 @@
         "heroImageName": "brewmaster",
         "attribute": "Universal",
         "lanes": [
-            "Offlane"
+            "Offlane",
+            "Support (4)",
+            "Support (5)"
         ],
         "gender": "Male",
         "roles": [
@@ -1929,7 +1945,6 @@
         "heroImageName": "shadow_demon",
         "attribute": "Intelligence",
         "lanes": [
-            "Support (4)",
             "Support (5)"
         ],
         "gender": "Male",
@@ -2059,7 +2074,9 @@
         "heroImageName": "ogre_magi",
         "attribute": "Strength",
         "lanes": [
-            "Support (5)"
+            "Support (5)",
+            "Offlane",
+            "Support (4)"
         ],
         "gender": "Male",
         "roles": [
@@ -2085,8 +2102,7 @@
         "attribute": "Strength",
         "lanes": [
             "Support (5)",
-            "Support (4)",
-            "Offlane"
+            "Support (4)"
         ],
         "gender": "Male",
         "roles": [
@@ -2162,7 +2178,11 @@
         "heroImageName": "nyx_assassin",
         "attribute": "Universal",
         "lanes": [
-            "Support (4)"
+            "Support (4)",
+            "Offlane",
+            "Support (5)",
+            "Mid"
+
         ],
         "gender": "Male",
         "roles": [
@@ -2213,8 +2233,9 @@
         "heroImageName": "keeper_of_the_light",
         "attribute": "Intelligence",
         "lanes": [
-            "Mid",
             "Support (4)",
+            "Mid",
+            "Support (5)",
             "Offlane"
         ],
         "gender": "Male",
@@ -2239,7 +2260,8 @@
         "attribute": "Universal",
         "lanes": [
             "Support (5)",
-            "Support (4)"
+            "Support (4)",
+            "Mid"
         ],
         "gender": "Other",
         "roles": [
@@ -2262,7 +2284,8 @@
         "heroImageName": "visage",
         "attribute": "Universal",
         "lanes": [
-            "Offlane"
+            "Offlane",
+            "Mid"
         ],
         "gender": "Male",
         "roles": [
@@ -2384,8 +2407,6 @@
         "attribute": "Universal",
         "lanes": [
             "Offlane",
-            "Support (4)",
-            "Support (5)",
             "Mid"
         ],
         "gender": "Male",
@@ -2436,7 +2457,8 @@
         "attribute": "Strength",
         "lanes": [
             "Offlane",
-            "Carry"
+            "Carry",
+            "Mid"
         ],
         "gender": "Male",
         "roles": [
@@ -2512,8 +2534,9 @@
         "heroImageName": "abaddon",
         "attribute": "Universal",
         "lanes": [
+            "Support (5)",
             "Carry",
-            "Support (5)"
+            "Offlane"
         ],
         "gender": "Male",
         "roles": [
@@ -2538,7 +2561,6 @@
         "attribute": "Strength",
         "lanes": [
             "Support (5)",
-            "Support (4)",
             "Offlane"
         ],
         "gender": "Male",
@@ -2563,7 +2585,9 @@
         "heroImageName": "legion_commander",
         "attribute": "Strength",
         "lanes": [
-            "Offlane"
+            "Offlane",
+            "Mid",
+            "Carry"
         ],
         "gender": "Female",
         "roles": [
@@ -2636,7 +2660,9 @@
         "heroImageName": "earth_spirit",
         "attribute": "Strength",
         "lanes": [
-            "Support (4)"
+            "Support (4)",
+            "Mid",
+            "Offlane"
         ],
         "gender": "Male",
         "roles": [
@@ -2709,8 +2735,8 @@
         "heroImageName": "phoenix",
         "attribute": "Universal",
         "lanes": [
-            "Support (5)",
             "Support (4)",
+            "Support (5)",
             "Offlane"
         ],
         "gender": "Other",
@@ -2737,7 +2763,8 @@
         "heroImageName": "oracle",
         "attribute": "Intelligence",
         "lanes": [
-            "Support (5)"
+            "Support (5)",
+            "Support (4)"
         ],
         "gender": "Male",
         "roles": [
@@ -2761,9 +2788,8 @@
         "heroImageName": "winter_wyvern",
         "attribute": "Universal",
         "lanes": [
-            "Offlane",
             "Support (5)",
-            "Support (4)"
+            "Offlane"
         ],
         "gender": "Female",
         "roles": [
@@ -2811,9 +2837,9 @@
         "attribute": "Agility",
         "lanes": [
             "Carry",
+            "Mid",
             "Support (4)",
-            "Support (5)",
-            "Mid"
+            "Offlane"
         ],
         "gender": "Male",
         "roles": [
@@ -2892,8 +2918,8 @@
         "heroImageName": "grimstroke",
         "attribute": "Intelligence",
         "lanes": [
-            "Support (5)",
-            "Support (4)"
+            "Support (4)",
+            "Support (5)"
         ],
         "gender": "Male",
         "roles": [
@@ -2919,8 +2945,7 @@
         "attribute": "Agility",
         "lanes": [
             "Support (4)",
-            "Support (5)",
-            "Offlane"
+            "Support (5)"
         ],
         "gender": "Female",
         "roles": [
@@ -2998,8 +3023,7 @@
         "heroImageName": "mars",
         "attribute": "Strength",
         "lanes": [
-            "Offlane",
-            "Mid"
+            "Offlane"
         ],
         "gender": "Male",
         "roles": [
@@ -3023,8 +3047,8 @@
         "heroImageName": "dawnbreaker",
         "attribute": "Strength",
         "lanes": [
-            "Support (5)",
             "Offlane",
+            "Support (5)",
             "Support (4)",
             "Mid"
         ],
@@ -3050,9 +3074,9 @@
         "attribute": "Universal",
         "lanes": [
             "Offlane",
-            "Carry",
             "Support (4)",
-            "Support (5)"
+            "Support (5)",
+            "Carry"
         ],
         "gender": "Female",
         "roles": [
@@ -3079,7 +3103,8 @@
         "lanes": [
             "Offlane",
             "Support (4)",
-            "Mid"
+            "Support (5)",
+            "Carry"
         ],
         "gender": "Male",
         "roles": [
@@ -3105,7 +3130,6 @@
         "lanes": [
             "Carry",
             "Mid",
-            "Support (4)",
             "Offlane"
         ],
         "gender": "Female",
