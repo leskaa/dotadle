@@ -11,7 +11,7 @@ Run, build, and testing scripts can be found in the [package.json](https://githu
 ## Contributing
 
 ### Issues
-Feel free to **submit bugs** and **suggest features** under the issues tab. *No guarentee they will be fixed or implemented.*
+Feel free to **submit bugs** and **suggest features** under the issues tab. *No guarantee they will be fixed or implemented.*
 
 ### Priority Changes
 - Cleaner Code / Refactoring
