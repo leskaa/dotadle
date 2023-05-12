@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
-import heroData from "./datasets/heroData.json";
-import Hero from "./types/hero";
+import heroData from "./heroData.json";
+import Hero from "../types/hero";
 
 const createHeroGridEntryHash = (hero: Hero) => {
   return (
