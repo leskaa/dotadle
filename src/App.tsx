@@ -11,14 +11,11 @@ import useGuessesStore from "./stores/guessesStore";
 import VictoryModal from "./VictoryModal";
 import PatchNotes from "./PatchNotes";
 import CountdownClock from "./CountdownClock";
+import { getAnswerIndexToday } from "./timeUtilities";
+import { getAnswerIdToday } from "./timeUtilities";
 
-const currentTime = new Date().getTime();
-const startingTime = new Date(2023, 3, 12, 5).getTime();
-const timezoneAdjustment = new Date().getTimezoneOffset() * 60 * 1000;
-const dayIndex = Math.floor(
-  (currentTime - startingTime + timezoneAdjustment) / (1000 * 3600 * 24)
-);
-const correctAnswerId = answers[dayIndex];
+const dayIndex = getAnswerIndexToday();
+const correctAnswerId = getAnswerIdToday();
 
 function App() {
   // Remove non-season 1 local storage items

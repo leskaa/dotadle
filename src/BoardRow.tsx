@@ -4,6 +4,7 @@ import Colors from "./types/colors";
 import Hero from "./types/hero";
 import options from "./datasets/heroData.json";
 import answers from "./datasets/answerIds.json";
+import { getAnswerIdToday } from "./timeUtilities";
 
 type BoardRowProps = {
   heroName: string;
@@ -17,13 +18,7 @@ type BoardRowProps = {
   releaseYear: number;
 };
 
-const currentTime = new Date().getTime();
-const startingTime = new Date(2023, 3, 12, 5).getTime();
-const timezoneAdjustment = new Date().getTimezoneOffset() * 60 * 1000;
-const dayIndex = Math.floor(
-  (currentTime - startingTime + timezoneAdjustment) / (1000 * 3600 * 24)
-);
-const correctAnswerId = answers[dayIndex];
+const correctAnswerId = getAnswerIdToday();
 
 const checkIfListsMatch = (
   correctList: string[],
