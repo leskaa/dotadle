@@ -5,8 +5,8 @@ export const getAnswerIndexToday = (): number => {
   const currentTime = Temporal.Now.instant().epochMilliseconds;
   const startingTime = Temporal.ZonedDateTime.from({
     year: 2023,
-    month: 4,
-    day: 12,
+    month: 8,
+    day: 17,
     timeZone: "America/Chicago",
   }).toInstant().epochMilliseconds;
   const dayIndex = Math.floor(
@@ -29,8 +29,8 @@ export const getTimeUntilNextQuestion = (answerIndex: number): string => {
   const currentTime = Temporal.Now.instant().epochMilliseconds;
   const startingTime = Temporal.ZonedDateTime.from({
     year: 2023,
-    month: 4,
-    day: 12,
+    month: 8,
+    day: 17,
     timeZone: "America/Chicago",
   }).toInstant().epochMilliseconds;
   const millisInDay = 1000 * 3600 * 24;
