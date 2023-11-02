@@ -1813,7 +1813,7 @@
         "heroId": 74,
         "heroName": "Invoker",
         "heroImageName": "invoker",
-        "attribute": "Intelligence",
+        "attribute": "Universal",
         "lanes": [
             "Mid"
         ],
