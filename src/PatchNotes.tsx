@@ -23,7 +23,7 @@ const PatchNotes = () => {
         } absolute z-10 top-0 w-64 h-[16rem] px-4 text-slate-200 border-l border-b border-slate-200 rounded-bl-md bg-slate-800`}
       >
         <h2 className="mt-5 text-md text-center font-semibold underline">
-          Thursday, August 17
+          Tuesday, December 19
         </h2>
         <ul className="text-center">
           <li className="text-xs m-1">
@@ -31,16 +31,16 @@ const PatchNotes = () => {
             <em className="text-xs font-bold italic text-red-600 mr-1">
               DOTADLE
             </em>
-            <strong>Season 2</strong>
+            <strong>Season 3</strong>
           </li>
           <li className="text-xs m-1">
             New heroes each day from{" "}
             <strong>
-              August 17<sup>th</sup>
+              December 19<sup>th</sup>
             </strong>{" "}
             to{" "}
             <strong>
-              December 19<sup>th</sup>
+              April 25<sup>th</sup> 2025
             </strong>
           </li>
         </ul>
