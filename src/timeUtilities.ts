@@ -12,7 +12,7 @@ export const getAnswerIndexToday = (): number => {
   const dayIndex = Math.floor(
     (currentTime - startingTime) / (1000 * 3600 * 24)
   );
-  return dayIndex;
+  return dayIndex % answerIds.length;
 };
 
 export const getAnswerIdToday = (): number => {
